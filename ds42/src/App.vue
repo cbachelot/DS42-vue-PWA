@@ -1,6 +1,9 @@
 <template>
   <div id="app">
 
+<!-- set progressbar -->
+        <vue-progress-bar></vue-progress-bar>
+
 <div class="ds42-main-grid">
     <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a>
     <div id="ds42-nav">
@@ -48,6 +51,4 @@ export default {
   animation: moveInUp .2s ease-in;
 }
 
-#app {
-}
 </style>
