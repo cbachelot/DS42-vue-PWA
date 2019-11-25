@@ -1,0 +1,113 @@
+<template>
+<div class="accordions">
+ <div class="page-grid">
+
+                <div class="page-overview purple-gradient">
+                    <div class="content-column-left">
+                            <div>
+                                <h2>Accordions</h2>
+
+                                    <p>Accordions all the user to hide or reveal content when selected.</p>
+                                    <p>
+                                    Accordions are typically used to when there is limited space to reveal a large amount of content or if the user only needs a few specific pieces of content within the page.
+                                    </p>
+                            </div>
+
+                            <div>
+                                    <img alt="Accordians Overview" class="overview-image" src="../images/accordion.svg">
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="page-content">
+                                <div>
+                                <h2>Accordion Types</h2>
+                                <p>The most common accordion types are:</p>
+                                </div>
+
+                                <div class="content-column-two">
+                                    <div class="two-col-left">
+                                    <h3 class="align-top">Standard Accordion</h3>
+                                    <p>This pattern is used to expand and collapse large amounts of content. We typically use this pattern for filters.</p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img alt="Standard Accordian" src="../images/standard-accordions.svg" />
+                                    </div>
+
+                                    <div class="two-col-left"><h3>Read More Text Area</h3>
+                                    <p>This pattern allows us to present a body of text such as category SEO blocks, descriptions than can be lengthy in a more condensed way so that we don't push other content too far down the page. The user can click 'read more' to expand the accordion.' </p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img alt="Read More Action" src="../images/read-more.svg" />
+                                    </div>
+
+                                    <div class="two-col-left"><h3>Content Expanding Area</h3>
+                                    <p>This pattern allows us to show the user a brief snippet of content such as schedules or notes then allows the user to have the ability to expand the accordion to view more. </p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img alt="Expand Action" src="../images/Expand.svg" />
+                                    </div>
+
+                                </div>
+                                <hr>
+                                <div>
+                                        <h2>Standard Accordion Anatomy</h2>
+
+                                        </div>
+
+                                        <div class="content-column-two">
+                                            <div class="two-col-left">
+
+                                            <p><b>1. Accordion Label</b> - 15px font size - Color: #2c2c2c <br>
+                                                <b>2. Accordion Content</b> – Must be vertically aligned with accordion label <br>
+                                                <b>3. Accordion Arrow</b> Must be point up when open and down when closed - Color: #2c2c2c<br>
+                                                <b>4. Cursor</b> – Entire accordion header should be clickable and show the clickable pointer cursor.<br>
+
+                                            </p>
+                                            </div>
+                                            <div class="two-col-right">
+                                                    <img alt="Anatomy of an Accordian" src="../images/anatomy-accordion.svg" />
+                                                    </div>
+                                        </div>
+
+                <hr>
+              <div class="content-column-left">
+                        <div>
+
+                            <h3>Code</h3>
+                            <p>When applying accordions to the front end of an Allied product simply copy and paste the
+                                html found here. You can also view the CSS to see how it works.</p>
+
+                        </div>
+                        <div>
+                            <p class="codepen" data-height="325" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="ExYmQGN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Expand/Collapse Content">
+                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/ExYmQGN/">
+                                Expand/Collapse Content</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                              <p class="codepen" data-height="325" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="rNBmJPe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Show more/less gradient text box">
+                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/rNBmJPe/">
+                                Show more/less gradient text box</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+                            </div>
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+</template>
+<script>
+export default{
+  name: 'accordions',
+  data () {
+    return {
+      title: 'accordions'
+    }
+  }
+}
+</script>
