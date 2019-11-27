@@ -27,6 +27,7 @@ export default {
     navigationcomp
   }
 }
+
 </script>
 
 <style>

@@ -101,7 +101,15 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  mode: 'history',
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve( savedPosition || { x: 0, y: 0 } )
+      }, 400)
+    })
+  }
 })
 
-export default router
+export default router 
