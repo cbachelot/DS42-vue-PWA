@@ -332,15 +332,15 @@
                                                             <div class="accent-content color-title">
                                                                 <span>Allied Gray</span><div></div>
                                                                 <p>#979797</p>
-                                                                <p class="accent-variable">$allied_support_gray</p>
+                                                                <p class="accent-variable">$allied-support-gray</p>
                                                             </div>
                                                             <div class="accent-content allied-gray-l">
                                                                 <p>#e4e4e4</p>
-                                                                <p class="accent-variable">$allied_support_gray_l</p>
+                                                                <p class="accent-variable">$allied-support-gray-l</p>
                                                             </div>
                                                             <div class="accent-content allied-background-gray-l">
                                                             <p>#f4f4f4</p>
-                                                            <p class="accent-variable">$allied_background_gray_l</p></div>
+                                                            <p class="accent-variable">$allied-background-gray-l</p></div>
                                                         </div>
 
                                         </div>
