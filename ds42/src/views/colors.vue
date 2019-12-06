@@ -82,7 +82,7 @@
                                         <div>
                                             <p class="color-title">Allied Red Dark</p>
                                             <p class="color-specs">#9E0000</p>
-                                            <p class="color-specs">$allied_red_d
+                                            <p class="color-specs">$allied-red-d
 
                                             </p>
                                         </div>
@@ -122,7 +122,7 @@
                                         <div>
                                             <p class="color-title">Allied Red Light</p>
                                             <p class="color-specs">#FF6147</p>
-                                            <p class="color-specs">$allied_red_l
+                                            <p class="color-specs">$allied-red-l
 
                                             </p>
                                         </div>
@@ -188,7 +188,7 @@
                                             <div class="color-variables">
                                                 <p class="color-title">Support</p>
                                                 <p class="color-specs">#000000</p>
-                                                <p class="color-specs">$allied_black</p>
+                                                <p class="color-specs">$allied-black</p>
                                             </div>
 
                                             <div class="color-data">
@@ -223,7 +223,7 @@
                                             <div>
                                                 <p class="color-title">S - Light</p>
                                                 <p class="color-specs">#2c2c2c</p>
-                                                <p class="color-specs">$allied_black_l</p>
+                                                <p class="color-specs">$allied-black-l</p>
                                             </div>
 
                                             <div class="color-data">
