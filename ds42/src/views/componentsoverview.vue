@@ -19,6 +19,7 @@
                     </div>
                 </div>
                 <div class="page-content">
+<!-- OLD CONTENT STARTS HERE
 
                     <div class="four-column-layout">
 
@@ -71,19 +72,74 @@
                             </div>
                         </router-link>
 
-                    </div>
-
+                    </div> -->
+                    <cardcomp v-bind:componentslist="componentslist"/>
+                
                 </div>
             </div>
 
 </template>
 
 <script>
+import cardcomp from '../components/Card';  
 export default{
   name: 'componentsoverview',
+  components: {
+  cardcomp
+  },
   data () {
     return {
-      title: 'componentsoverview'
+      title: 'componentsoverview',
+      componentslist:[
+      {
+        compTitle:"Accordions",
+        image       : require('../images/accordion-preview.svg'),
+        altTag: "Accordions",
+        shortDesc: "Accordions allow the user to expance and collapse large amount of content.",
+        router: '/accordions',
+        compId:1
+      },
+      {
+        compTitle:"Buttons",
+        image       : require('../images/buttons-preview.svg'),
+        altTag: "Buttons",
+        shortDesc: "Buttons communicate the action that will occur when the user touches them.",
+        router: '/buttons',
+        compId:2
+      },
+      {
+        compTitle:"Data Table",
+        image       : require('../images/data-tables-preview.svg'),
+        altTag: "Data Table",
+        shortDesc: "Datatables allow the user to scan and digest large amounts of data quickly.",
+        router: '/tables',
+        compId:3
+      },
+      {
+        compTitle:"Date Picker",
+        image       : require('../images/date-picker-preview.svg'),
+        altTag: "Date Picker",
+        shortDesc: "Date Pickers allow the user to input a date or a range of dates into our UI.",
+        router: '/datepickers',
+        compId:4
+      },
+      {
+        compTitle:"Form Fields",
+        image       : require('../images/forms-preview.svg'),
+        altTag: "Form Fields",
+        shortDesc: "Form fields allow the user to input data into our UI.",
+        router: '/formfields',
+        compId:5
+      },
+      {
+        compTitle:"Selection Controls",
+        image       : require('../images/selection-controls-preview.svg'),
+        altTag: "Selection Controls",
+        shortDesc: "Selection controls allow users to complete tasks that involve making choices",
+        router: '/selection',
+        compId:6
+      }
+      ]
     }
   }
 }

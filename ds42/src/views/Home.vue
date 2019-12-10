@@ -9,9 +9,10 @@
           </div>
     </div>
 <div class="page-content">
-
     <h1>Getting Started</h1>
+    <cardcomp v-bind:componentslist="componentslist"/>
 
+<!--
 <div class="four-column-layout">
            <router-link  to="/foundations">
               <div class="overview-section-cta">
@@ -34,18 +35,48 @@
                 <p class="overview-section-desc">Download fonts, icon packs, design kits, etc.</p>
             </div>
           </router-link>
-      </div>
+      </div>-->
 
 </div>
 </div>
 </div>
 </template>
 <script>
-export default {
+import cardcomp from '../components/Card';  
+export default{
   name: 'home',
+  components: {
+  cardcomp
+  },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      title: 'componentsoverview',
+      componentslist:[
+      {
+        compTitle:"Foundations",
+        image       : require('../images/foundations-graphic.svg'),
+        altTag: "Foundations",
+        shortDesc: "The guidelines and usage of the basic building blocks of DS42.",
+        router: '/foundations',
+        compId:1
+      },
+      {
+        compTitle:"Components Overview",
+        image       : require('../images/components-graphic.svg'),
+        altTag: "Components Overview",
+        shortDesc: "A collection of DS42 components including code and guidelines.",
+        router: '/componentsoverview',
+        compId:2
+      },
+      {
+        compTitle:"Resources",
+        image       : require('../images/resources-graphic.svg'),
+        altTag: "Resources",
+        shortDesc: "Download fonts, icon packs, design kits, etc.",
+        router: '/resources',
+        compId:3
+      }
+      ]
     }
   }
 }

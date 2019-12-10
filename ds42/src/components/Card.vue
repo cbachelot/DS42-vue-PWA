@@ -1,0 +1,22 @@
+<template>
+<div class="four-column-layout"> 
+<router-link :to="{path:data.router}" v-for="(data,index) in componentslist" :key="index" >
+            <div class="overview-section-cta">
+            <img :src="data.image" :alt="data.altTag">
+            <h4>{{data.compTitle}}</h4>
+            <p class="overview-section-desc">{{data.shortDesc}}</p>
+            </div>
+ </router-link>
+ </div>
+</template>
+<script>
+export default{
+  name: 'cardcomp',
+  component: 'cardcomp',
+  props: {
+    componentslist: {
+      type: Array
+    }
+  }
+}
+</script>
