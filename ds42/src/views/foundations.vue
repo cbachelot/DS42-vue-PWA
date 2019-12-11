@@ -13,7 +13,8 @@
                     </div>
                 </div>
                 <div class="page-content">
-                    <div class="four-column-layout">
+                    <cardcomp v-bind:componentslist="componentslist"/>
+                    <!--<div class="four-column-layout">
                         <router-link  to="/colors">
                             <div class="overview-section-cta">
                                 <img alt="Colors" src="../images/color-preview.svg">
@@ -28,17 +29,39 @@
                                 <p class="overview-section-desc">Good typography is important for our brand, which cherishes craftsmanship and quality.</p>
                             </div>
                         </router-link>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
 </template>
 <script>
+import cardcomp from '../components/Card';  
 export default{
   name: 'foundations',
+  components: {
+  cardcomp
+  },
   data () {
     return {
-      title: 'foundations'
+      title: 'componentsoverview',
+      componentslist:[
+      {
+        compTitle:"Colors",
+        image       : require('../images/color-preview.svg'),
+        altTag: "Colors",
+        shortDesc: "Colors help us maintain good brand consistency while providing clear direct interfaces for our users.",
+        router: '/colors',
+        compId:1
+      },
+      {
+        compTitle:"Typography",
+        image       : require('../images/type-preview.svg'),
+        altTag: "Typography",
+        shortDesc: "A collection of DS42 components including code and guidelines.",
+        router: '/typography',
+        compId:2
+      }
+      ]
     }
   }
 }

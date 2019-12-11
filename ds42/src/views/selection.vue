@@ -118,6 +118,13 @@
                                                     on <a href="https://codepen.io">CodePen</a>.</span>
                                                   </p>
                                                   <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                                                  <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="yLyNLoL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Input Selector">
+                                                 <span>See the Pen <a href="https://codepen.io/cbachelot/pen/yLyNLoL">
+                                                 Input Selector</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                                 on <a href="https://codepen.io">CodePen</a>.</span>
+                                                 </p>
+                                                <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
                                         </div>
                                     </div>
 
