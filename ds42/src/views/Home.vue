@@ -10,7 +10,10 @@
     </div>
 <div class="page-content">
     <h1>Getting Started</h1>
+
+    <div class="column-layout" >
     <cardcomp v-bind:componentslist="componentslist"/>
+    </div>
 
 <!--
 <div class="four-column-layout">
