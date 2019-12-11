@@ -610,11 +610,17 @@ span.black-icon-overwrite:before {
 
 /*Four Column Layout Grid*/
 
-.four-column-layout {
+.column-layout > div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-column-gap: 4%;
 }
+
+/*.four-column-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 4%;
+}*/
 
 .overview-section-cta {
   padding: 20px;
@@ -649,7 +655,7 @@ a .overview-section-cta:hover {
   transition: border 0.2s ease-in-out;
 }
 
-.four-column-layout a:hover {
+.column-layout a:hover {
   text-decoration: none;
 }
 

@@ -1,5 +1,5 @@
 <template>
-                    <div class="four-column-layout" >
+                    <div>
 <!--<a :href="data.router" v-for="(data,index) in componentslist" :key="index">-->
 <router-link :to="{path:data.router}" v-for="(data,index) in componentslist" :key="index" >
             <div class="overview-section-cta">

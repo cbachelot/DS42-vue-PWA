@@ -13,23 +13,10 @@
                     </div>
                 </div>
                 <div class="page-content">
+                    <div class="column-layout" >
                     <cardcomp v-bind:componentslist="componentslist"/>
-                    <!--<div class="four-column-layout">
-                        <router-link  to="/colors">
-                            <div class="overview-section-cta">
-                                <img alt="Colors" src="../images/color-preview.svg">
-                                <h4>Colors</h4>
-                                <p class="overview-section-desc">Colors help us maintain good brand consistency while providing clear direct interfaces for our users.</p>
-                            </div>
-                        </router-link>
-                        <router-link  to="/typography">
-                            <div class="overview-section-cta">
-                                <img alt="Typography" src="../images/type-preview.svg">
-                                <h4>Typography</h4>
-                                <p class="overview-section-desc">Good typography is important for our brand, which cherishes craftsmanship and quality.</p>
-                            </div>
-                        </router-link>
-                    </div>-->
+                    </div>
+                    
                 </div>
             </div>
         </div>
