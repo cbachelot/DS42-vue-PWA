@@ -73,9 +73,9 @@
                         </router-link>
 
                     </div> -->
+
                     <cardcomp v-bind:componentslist="componentslist"/>
-                
-                </div>
+</div>
             </div>
 
 </template>

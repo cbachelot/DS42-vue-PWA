@@ -1,5 +1,6 @@
 <template>
-<div class="four-column-layout"> 
+                    <div class="four-column-layout" >
+<!--<a :href="data.router" v-for="(data,index) in componentslist" :key="index">-->
 <router-link :to="{path:data.router}" v-for="(data,index) in componentslist" :key="index" >
             <div class="overview-section-cta">
             <img :src="data.image" :alt="data.altTag">
@@ -7,7 +8,7 @@
             <p class="overview-section-desc">{{data.shortDesc}}</p>
             </div>
  </router-link>
- </div>
+</div>
 </template>
 <script>
 export default{
