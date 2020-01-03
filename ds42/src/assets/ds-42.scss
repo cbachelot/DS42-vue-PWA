@@ -80,6 +80,7 @@ h3 {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 9px;
+  margin-top: 0px;
 }
 
 h4 {
@@ -408,7 +409,7 @@ nav a {
       min-content,
       2fr
     );
-  margin: 100px 0px;
+  margin: 50px 0px;
   grid-column-gap: 2%;
 }
 
