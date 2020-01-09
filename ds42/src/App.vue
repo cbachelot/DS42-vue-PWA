@@ -11,7 +11,7 @@
   </div>
 
   <div class="ds42-body">
-  <transition name="moveInUp">
+  <transition name="fade" mode="out-in" v-on:after-enter="afterEnter" appear>
   <router-view/>
   </transition>
   </div>
@@ -90,6 +90,7 @@ export default {
 
 @import './assets/ds-42.css';
 
+/*
 .moveInUp-enter-active{
   animation: fadeIn 1s ease-in;
 }
@@ -107,5 +108,12 @@ export default {
 .moveInUp-leave-active{
   animation: moveInUp .2s ease-in;
 }
+*/
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease-in-out
+}
 
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
 </style>
