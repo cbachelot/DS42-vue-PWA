@@ -644,6 +644,14 @@ span.black-icon-overwrite:before {
   grid-column-gap: 4%;
 }
 
+.icon-column-layout > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(60px, 100px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(60px, 100px));
+  grid-column-gap: 4%;
+}
+
 /*.four-column-layout {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
