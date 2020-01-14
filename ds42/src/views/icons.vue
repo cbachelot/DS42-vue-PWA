@@ -17,20 +17,21 @@
                 
                 <div class="icon-page-layout">
                   <div class="icon-main">
+                    <h3>Icon Library</h3>
                     <div class="icon-column-layout">
                     <div>
   <div v-for="(item,index) in iconlist" :key="index">
-        <div id="show-modal" @click="selectItem(item)" class="overview-section-cta">
-            <img :src="item.image" :alt="item.altTag">
+        <div id="show-modal" @click="selectItem(item)" class="icon-section-cta">
+          <div class="icon-top">
+          <img class="icon-image" :src="item.image" :alt="item.altTag"></div>
+          <!--<i v-bind:class="item.class"></i>-->
             <p>{{item.title}}</p>
             </div>
   </div>
 
     <modal v-show="showModal" :item="selectedItem" @close="deselect"></modal>
-                   <!-- <iconcomp v-bind:componentslist="componentslist"/> -->
                     </div> 
                   </div>
-                  <div class="icon-bar">test</div>
                 </div>
             </div> </div>
 
@@ -54,50 +55,98 @@ export default{
         title:"360",
         image       : require('../images/icons/360.svg'),
         altTag: "360 icon",
-        shortDesc: "Accordions allow the user to expance and collapse large amount of content.",
-        router: '/accordions',
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "threesixty-icon",
         iconID:1
       },
-      {
-        title:"Buttons",
-        image       : require('../images/buttons-preview.svg'),
-        altTag: "Buttons",
-        shortDesc: "Buttons communicate the action that will occur when the user touches them.",
-        router: '/buttons',
+       {
+        title:"Add to Calendar",
+        image       : require('../images/icons/add-to-calendar.svg'),
+        altTag: "add to calendar",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "add-to-calendar",
         iconID:2
       },
       {
-        title:"Data Table",
-        image       : require('../images/data-tables-preview.svg'),
-        altTag: "Data Table",
-        shortDesc: "Datatables allow the user to scan and digest large amounts of data quickly.",
-        router: '/tables',
+        title:"Add to Favorites",
+        image       : require('../images/icons/add-to-favorites.svg'),
+        altTag: "add to favorites",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "add-to-favorites",
         iconID:3
       },
+           {
+        title:"Add with Circle",
+        image       : require('../images/icons/add-with-circle.svg'),
+        altTag: "add with circle",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "add-with-circle",
+        iconID:11
+      },
       {
-        title:"Date Picker",
-        image       : require('../images/date-picker-preview.svg'),
-        altTag: "Date Picker",
-        shortDesc: "Date Pickers allow the user to input a date or a range of dates into our UI.",
-        router: '/datepickers',
+        title:"Assigned Leads",
+        image       : require('../images/icons/assigned-leads.svg'),
+        altTag: "assigned leads",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "assigned-leads",
         iconID:4
       },
       {
-        title:"Form Fields",
-        image       : require('../images/forms-preview.svg'),
-        altTag: "Form Fields",
-        shortDesc: "Form fields allow the user to input data into our UI.",
-        router: '/formfields',
+        title:"Attachment",
+        image       : require('../images/icons/attachment.svg'),
+        altTag: "attachment",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "attachment",
         iconID:5
       },
       {
-        title:"Selection Controls",
-        image       : require('../images/selection-controls-preview.svg'),
-        altTag: "Selection Controls",
-        shortDesc: "Selection controls allow users to complete tasks that involve making choices",
-        router: '/selection',
+        title:"Back",
+        image       : require('../images/icons/back.svg'),
+        altTag: "back",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "back",
         iconID:6
-      }
+      },
+      {
+     title:"Calendar Date Picked",
+        image       : require('../images/icons/calendar-date-picked.svg'),
+        altTag: "calendar date picked",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "calendar-date-picked",
+        iconID:7
+      },
+      {
+        title:"Calendar Expired",
+        image       : require('../images/icons/calendar-expired.svg'),
+        altTag: "Calendar Expired",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "calendar-expired",
+        iconID:8
+      },
+        {
+        title:"Calendar Picker",
+        image       : require('../images/icons/calendar-picker.svg'),
+        altTag: "Calendar Picker",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "calendar-picker",
+        iconID:9
+      },
+        {
+        title:"Checkbox Blank",
+        image       : require('../images/icons/checkbox-blank.svg'),
+        altTag: "checkbox blank",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "checkbox-blank",
+        iconID:10
+      },
+      {
+        title:"Close with Circle",
+        image       : require('../images/icons/close-with-circle.svg'),
+        altTag: "close with circle",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "close-with-circle",
+        iconID:12
+      },
       ]
     };
   },
@@ -115,6 +164,9 @@ this.selectedItem = item
 </script>
 
 <style scoped>
-
+.icon-image {
+  min-width: 25px;
+  max-height: 25px;
+}
 
 </style>
