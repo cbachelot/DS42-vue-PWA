@@ -1,45 +1,71 @@
 <template>
  <div class="page-grid">
-
-                    <div class="page-overview purple-gradient">
-                    <div class="content-column-left">
-                        <div>
-                            <h2>Iconography</h2>
-                            <p>Our icons are the visual identifiers of Allied’s digital experiences, including our services and tools. Icons communicate the core idea and intent of a product in a simple, bold, and friendly way. While each icon is visually distinct, all product icons for our brand should be unified through concept and execution.</p>
-                            <p>These guidelines are a starting point to ensure that your product icon colors and key elements reflect our brand identity.</p>
-                        </div>
-                        <div>
-                            <img alt="Components Overview" class="overview-image" src="../images/components-overview.svg">
-                        </div>
-
-                    </div>
-                </div>
-                
-                <div class="icon-page-layout">
-                  <div class="icon-main">
-                    <h3>Icon Library</h3>
-                    <div class="icon-column-layout">
-                    <div>
-  <div v-for="(item,index) in iconlist" :key="index">
-        <div id="show-modal" @click="selectItem(item)" class="icon-section-cta">
-          <div class="icon-top">
-          <img class="icon-image" :src="item.image" :alt="item.altTag"></div>
-          <!--<i v-bind:class="item.class"></i>-->
-            <p>{{item.title}}</p>
+          <div class="page-overview purple-gradient">
+            <div class="content-column-left">
+              <div>
+                <h2>Iconography</h2>
+                <p>Our icons are the visual identifiers of Allied’s digital experiences, including our services and tools. Icons communicate the core idea and intent of a product in a simple, bold, and friendly way. While each icon is visually distinct, all product icons for our brand should be unified through concept and execution.</p>
+                <p>These guidelines are a starting point to ensure that your product icon colors and key elements reflect our brand identity.</p>
+              </div>
+              <div>
+                <img alt="Components Overview" class="overview-image" src="../images/components-overview.svg">
+              </div>
             </div>
-  </div>
-
-    <modal v-show="showModal" :item="selectedItem" @close="deselect"></modal>
-                    </div> 
-                  </div>
-                </div>
-            </div> </div>
+          </div>
+                
+        <div class="icon-page-layout">
+          <div class="icon-main">
+            <div class="icon-title-area">
+                <div class="icon-title">
+                <h3>Icon Library</h3></div>
+            <div class="search-area">
+                <form id="form">
+                <label class="form-input">
+                <input type="text" v-model="search"  required />
+                <span class="label">Search Icons</span>
+                <span class="underline"></span>
+                </label>
+                </form> 
+            </div> 
+          </div>
+          <div class="icon-column-layout">
+          <!-- SAVING THIS FOR LATER to build a component <iconcomp v-bind:iconlist="filtericonlist"/> -->
+            <div> <!-- Layout is applied here for when we move to a component -->
+            <!-- AND THIS <div v-for="(item,index) in iconlist" :key="index"> -->
+              <div v-for="(item,index) in filtericonlist" :key="index">
+                  <div id="show-modal" @click="selectItem(item)" class="icon-section-cta">
+                    <div class="icon-top"><img class="icon-image" :src="item.image" :alt="item.altTag"></div>
+                    <p>{{item.title}}</p>
+              </div>
+            </div> 
+            <modal v-show="showModal" :item="selectedItem" @close="deselect"></modal>
+          </div>      
+          </div>
+        </div>
+            </div> 
+     <div class="icon-design"> 
+       <div class="icon-desc">
+       <h3>Designing Icons for Allied</h3>
+       <p>The tactile and visual quality of Allied’s digital experience is reflected in the design of our icons. Each icon is a clean, clear representation of the tool or action associate with that icon. The quality of our design is reflected in the sharp edges our icons retain when scaled to both large and small sizes.</p>
+       </div>
+       <div class="icon-stan">
+       <h4>Icon Standards</h4>
+       <p>When creating an icon, the bounding around the icon should retain the standard sizes of 16x16, 32x32, and 48x48.</p> 
+       <p>Avoid anitaliasing, and retain hard edges by utilizing SVG file formats.</p> 
+       <p>When designing a vertical or horizontal icon, center the icon in your standard size area and split the difference for equal spacing. Youc an design at any width or height as needed for the icon as long as the additional space can be split evenly in the container.</p>  
+       </div>
+       <div class="icon-stanimg"><img src="../images/icon-size-example.svg" alt="icon example"></div>
+       <div class="icon-stanimg2"><img src="../images/Icon-Res-Example.svg" alt="icon example"></div>
+       <div class="icon-stanimg3"><img src="../images/icon-space-example.svg" alt="icon example"></div>
+     </div>       
+            
+</div>
 
 </template>
 
 <script>
-import modal from '../components/modal';
 
+import modal from '../components/modal';
 export default{
   name: 'icons',
   components: {
@@ -47,6 +73,7 @@ export default{
   },
   data () {
     return {
+      search: "",
       title: 'icons',
       showModal: false,
       selectedItem: undefined,
@@ -159,6 +186,22 @@ this.selectedItem = item
       this.selectedItem = undefined
       this.showModal = false
     }
+  },
+  computed: {
+    filtericonlist: function() {
+      let filtered = this.iconlist;
+      if (this.search) {
+        filtered = this.iconlist.filter(
+          m => m.title.toLowerCase().indexOf(this.search) > -1
+        );
+      }
+      if (this.select) {
+        filtered = this.members.filter(
+          m => m.category.toLowerCase() === this.select.toLowerCase()
+        );
+      }
+      return filtered;
+    }
   }
 }
 </script>
@@ -167,6 +210,49 @@ this.selectedItem = item
 .icon-image {
   min-width: 25px;
   max-height: 25px;
+}
+
+
+.icon-design {
+  display: grid;
+  grid-template-columns: .75fr 1fr 1fr;
+  grid-template-areas: "desc desc desc"
+                       "stan stanimg stanimg2"
+                       "stan stanimg3 .";
+  padding: 30px;
+  grid-column-gap: 3%;
+  grid-row-gap: 3%;
+}
+
+.icon-desc {
+  grid-area: desc;
+}
+
+.icon-stan {
+  grid-area: stan;
+}
+
+.icon-stanimg {
+  grid-area: stanimg;
+}
+
+.icon-stanimg img {
+  width:100%;
+}
+.icon-stanimg2 {
+  grid-area: stanimg2;
+}
+
+.icon-stanimg2 img {
+  width:100%;
+}
+
+.icon-stanimg3 {
+  grid-area: stanimg3;
+}
+
+.icon-stanimg3 img {
+  width:100%;
 }
 
 </style>
