@@ -220,6 +220,7 @@ this.selectedItem = item
                        "stan stanimg stanimg2"
                        "stan stanimg3 .";
   padding: 30px;
+  margin-bottom: 30px;
   grid-column-gap: 3%;
   grid-row-gap: 3%;
 }

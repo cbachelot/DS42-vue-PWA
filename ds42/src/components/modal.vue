@@ -2,14 +2,15 @@
 <!-- template for the modal component -->
 <div id="modal-template">
     <transition name="modal">
-    <div class="modal-mask">
+    <div class="modal-mask" >
       <div class="modal-wrapper">
         <div class="modal-container">
             <div class="icon-header">
+                <div class="icon-close" @click="$emit('close')"><img src="../images/close-circle.svg" alt="close icon"/></div>
               <img :src="item.image" :alt="item.altTag" width="50px" height="100%"> <h4> {{item.title}} Icon </h4>
-              <button class="modal-default-button" @click="$emit('close')">
+             <!-- <button class="modal-default-button" @click="$emit('close')"> 
                 Close
-              </button> </div>
+              </button> --></div>
               <div class="icon-download-section">
               <div class="download-box"><a :href="item.image" download><img src="../images/icons/download.svg">SVG</a></div>
               <div class="download-box"><a :href="item.image" download><img src="../images/icons/download.svg">PNG</a></div>
@@ -74,7 +75,7 @@ figure {
 }
 
 .modal-container {
-  width: 310px;
+  width: 350px;
   height: 100vh;
   position: fixed;
   right: 0;
@@ -87,11 +88,17 @@ figure {
 
  .modal-container h4 {
      display: inline;
+     vertical-align: middle;
  }
 
-.modal-container img {
+ .modal-container img {
+     margin-right: 8px;
+ }
+
+.icon-header img {
     vertical-align: middle;
     margin-right: 8px;
+    margin-bottom: 3px;
 }
 
 .icon-header {
@@ -152,6 +159,19 @@ background-color:#ffffff;
 .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.icon-close {
+    float:left;
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+.modal-container {    
+width: 284px;
+}
 }
 </style>
 
