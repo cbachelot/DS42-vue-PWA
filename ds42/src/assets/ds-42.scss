@@ -629,10 +629,13 @@ span.black-icon-overwrite:before {
 
 .icon-main {
   background-color: $allied_background_gray_l;
+  padding-bottom: 18px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .icon-main h3 {
-  padding-top: 20px;
+  padding-top: 33px;
   margin-left: 26px;
 }
 
@@ -905,7 +908,7 @@ img.icon {
 
 .search-area {
   grid-area: search;
-  margin-top:10px;
+  margin-top:25px;
   max-width: 100%;
 }
 

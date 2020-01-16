@@ -658,10 +658,13 @@ span.black-icon-overwrite:before {
 
 .icon-main {
   background-color: #f4f4f4;
+  padding-bottom: 18px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .icon-main h3 {
-  padding-top: 20px;
+  padding-top: 33px;
   margin-left: 26px;
 }
 
@@ -948,7 +951,7 @@ img.icon {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: search;
-  margin-top: 10px;
+  margin-top: 25px;
   max-width: 100%;
 }
 

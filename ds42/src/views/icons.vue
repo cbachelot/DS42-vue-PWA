@@ -219,7 +219,7 @@ this.selectedItem = item
   grid-template-areas: "desc desc desc"
                        "stan stanimg stanimg2"
                        "stan stanimg3 .";
-  padding: 30px;
+  padding: 30px 100px 30px 100px;
   margin-bottom: 30px;
   grid-column-gap: 3%;
   grid-row-gap: 3%;
