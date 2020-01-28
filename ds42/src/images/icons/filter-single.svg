@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>filter-single</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-485.000000, -306.000000)">
+            <g id="Filter-(Data-Table)" transform="translate(486.000000, 306.000000)">
+                <path d="M16.9729238,4.61734484 L11.7499527,9.84031599 C11.6162761,9.97399253 11.4754921,10.0962297 11.3288169,10.2070275 L11.3279011,18.452 L6.15690109,21.947 L6.15649476,9.90234923 C6.13519105,9.88195269 6.11405737,9.86127495 6.09309841,9.84031599 L0.747701136,4.49491871 C-0.0757180574,3.67149952 -0.465093081,2.57839986 -0.420423935,1.49992992 L18.1340889,1.49966391 C18.2146435,2.61748015 17.8275885,3.76268018 16.9729238,4.61734484 Z" id="base-color" fill="#2C2C2C"></path>
+                <ellipse id="Oval-2" fill="#E4E4E4" cx="8.8534902" cy="1.5" rx="8.68992185" ry="1"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
     <title>timestamp</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="access-time" fill="#979797">
-            <g id="Shape">
-                <path d="M5,0 C2.25,0 0,2.25 0,5 C0,7.75 2.25,10 5,10 C7.75,10 10,7.75 10,5 C10,2.25 7.75,0 5,0 L5,0 Z M5,9 C2.8,9 1,7.2 1,5 C1,2.8 2.8,1 5,1 C7.2,1 9,2.8 9,5 C9,7.2 7.2,9 5,9 Z M5.25,2.5 L4.5,2.5 L4.5,5.5 L7.1,7.1 L7.5,6.45 L5.25,5.1 L5.25,2.5 Z"></path>
+        <g id="Artboard" transform="translate(-168.000000, -399.000000)" fill="#2C2C2C">
+            <g id="timestamp" transform="translate(168.000000, 399.000000)">
+                <path d="M9,0 C4.05,0 0,4.05 0,9 C0,13.95 4.05,18 9,18 C13.95,18 18,13.95 18,9 C18,4.05 13.95,0 9,0 L9,0 Z M9,1.8 C12.96,1.8 16.2,5.04 16.2,9 C16.2,12.96 12.96,16.2 9,16.2 C5.04,16.2 1.8,12.96 1.8,9 C1.8,5.04 5.04,1.8 9,1.8 Z M9.45,4.5 L8.1,4.5 L8.1,9.9 L12.78,12.78 L13.5,11.61 L9.45,9.18 L9.45,4.5 Z" id="color"></path>
             </g>
         </g>
     </g>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Close</title>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>close</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Buttons-Copy" transform="translate(-1215.000000, -1485.000000)" fill="#9E0000">
-            <g id="Close" transform="translate(1215.000000, 1485.000000)">
-                <g id="X">
-                    <path d="M6.7658166,4.54640097 L11.3306533,-0.0184357232 L13.0952636,1.74617455 L8.53042687,6.31101125 L13.0952636,10.8758479 L11.3306533,12.6404582 L6.7658166,8.07562152 L2.2009799,12.6404582 L0.436369627,10.8758479 L5.00120632,6.31101125 L0.436369627,1.74617455 L2.2009799,-0.0184357232 L6.7658166,4.54640097 Z" id="Combined-Shape"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-830.000000, -36.000000)" fill="#9E0000">
+            <g id="Close" transform="translate(830.000000, 36.000000)">
+                <g id="Color" transform="translate(1.319832, 0.690102)">
+                    <path d="M14.3687649,-0.715627915 L16.8120714,1.72767862 L10.491,8.048 L16.8120714,14.3687649 L14.3687649,16.8120714 L8.048,10.491 L1.72767862,16.8120714 L-0.715627915,14.3687649 L5.605,8.048 L-0.715627915,1.72767862 L1.72767862,-0.715627915 L8.048,5.605 L14.3687649,-0.715627915 Z"></path>
                 </g>
             </g>
         </g>

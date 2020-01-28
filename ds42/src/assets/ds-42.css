@@ -986,6 +986,9 @@ img.icon {
     padding-right: 25px;
     padding-left: 25px;
   }
+  .icon-main {
+    padding: 0px;
+  }
   /*Allied Typography*/
   .allied-h1 {
     font-size: 20px;
