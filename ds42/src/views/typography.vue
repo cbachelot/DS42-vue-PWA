@@ -31,7 +31,7 @@
 
                                 <p>Lato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google.</p>
 
-                                <p><a target="_blank" href="./fonts/Lato.zip"><img class="icon ico-link" src="../images/icons/Export-Black.svg"/>Download Lato</a></p>
+                                <p><a target="_blank" href="./fonts/Lato.zip"><img class="icon ico-link" alt="Download Lato" src="../images/icons/Export-Black.svg"/>Download Lato</a></p>
 
                                 <p><strong>How to call our font family:</strong>
                                 <br>font-family: lato, verdana, arial, san-serif;</p>
