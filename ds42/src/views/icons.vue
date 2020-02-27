@@ -33,7 +33,7 @@
             <div> <!-- Layout is applied here for when we move to a component -->
             <!-- AND THIS <div v-for="(item,index) in iconlist" :key="index"> -->
               <div v-for="(item,index) in filtericonlist" :key="index">
-                  <div id="show-sidebar" @click="selectItem(item)" class="icon-section-cta">
+                  <div @click="selectItem(item)" class="icon-section-cta">
                     <div class="icon-top"><img class="icon-image" :src="item.image" :alt="item.altTag"></div>
                     <p>{{item.title}}</p>
               </div>
