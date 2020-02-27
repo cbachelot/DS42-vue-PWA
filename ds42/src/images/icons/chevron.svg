@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-680.000000, -53.000000)" fill="#2C2C2C">
+            <g id="chevron" transform="translate(680.000000, 50.000000)">
+                <g id="Down" transform="translate(3.600000, 0.000000)">
+                    <polygon id="Right" transform="translate(5.400000, 9.308571) rotate(-270.000000) translate(-5.400000, -9.308571) " points="1.85142857 0.308571429 -0.308571429 2.40857143 6.78857143 9.30857143 -0.308571429 16.2085714 1.85142857 18.3085714 11.1085714 9.30857143"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

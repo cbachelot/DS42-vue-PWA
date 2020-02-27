@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="21px" viewBox="0 0 18 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-585.000000, -250.000000)" fill="#2C2C2C">
+            <g id="Dashboard" transform="translate(585.000000, 250.000000)">
+                <g id="Rectangle-6">
+                    <rect x="0" y="9.6" width="3.6" height="10.8"></rect>
+                    <rect x="9.6" y="14.4" width="3.6" height="6"></rect>
+                    <polygon opacity="0.702502264" points="4.8 4.8 8.4 4.8 8.4 20.4 4.8 20.4"></polygon>
+                    <rect opacity="0.7" x="14.4" y="0" width="3.6" height="20.4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
