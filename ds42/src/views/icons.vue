@@ -222,12 +222,20 @@ export default{
         class: "check-box-checked-icon",
         iconID:10
       },
-      {
-        title:"Checkmark with Circle",
-        image       : require('../images/icons/checkmark-with-circle.svg'),
-        altTag: "checkmark with circle",
+             {
+        title:"Chevron",
+        image       : require('../images/icons/chevron.svg'),
+        altTag: "chevron",
         description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "checkmark-with-circle-icon",
+        class: "chevron-icon",
+        iconID:10
+      },
+                  {
+        title:"Chevron Filled",
+        image       : require('../images/icons/chevron-filled.svg'),
+        altTag: "chevron filled",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "chevron-filled-icon",
         iconID:10
       },
         {
@@ -540,6 +548,198 @@ export default{
         altTag: "plus",
         description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
         class: "plus-icon",
+        iconID:12
+      },
+          {
+        title:"Previously Purchased",
+        image       : require('../images/icons/previous-purchased.svg'),
+        altTag: "Previously Purchased",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "previously-purchased-icon",
+        iconID:12
+      },
+          {
+        title:"Priority",
+        image       : require('../images/icons/priority.svg'),
+        altTag: "Priority",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "priority-icon",
+        iconID:12
+      },
+           {
+        title:"Quote",
+        image       : require('../images/icons/quote.svg'),
+        altTag: "quote",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "quote-icon",
+        iconID:12
+      },
+            {
+        title:"Reassign",
+        image       : require('../images/icons/reassign.svg'),
+        altTag: "reassign",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "reassign-icon",
+        iconID:12
+      },
+              {
+        title:"ROHS Compliant",
+        image       : require('../images/icons/rohs-compliant.svg'),
+        altTag: "rohs compliant",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "rohs-compliant-icon",
+        iconID:12
+      },
+             {
+        title:"Search",
+        image       : require('../images/icons/search.svg'),
+        altTag: "search",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "search-icon",
+        iconID:12
+      },
+           {
+        title:"Send",
+        image       : require('../images/icons/send.svg'),
+        altTag: "send",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "send-icon",
+        iconID:12
+      },
+     {
+        title:"Service",
+        image       : require('../images/icons/service.svg'),
+        altTag: "service",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "service-icon",
+        iconID:12
+      },
+         {
+        title:"Share",
+        image       : require('../images/icons/share.svg'),
+        altTag: "share",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "share-icon",
+        iconID:12
+      },
+          {
+        title:"Shipping Box",
+        image       : require('../images/icons/shipping-box.svg'),
+        altTag: "shipping box",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "shipping-box-icon",
+        iconID:12
+      },
+          {
+        title:"Shipping",
+        image       : require('../images/icons/shipping.svg'),
+        altTag: "shipping",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "shipping-icon",
+        iconID:12
+      },
+          {
+        title:"Shopping Cart",
+        image       : require('../images/icons/shopping-cart.svg'),
+        altTag: "shipping box",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "shopping-cart-icon",
+        iconID:12
+      },
+          {
+        title:"Special Pricing Agreement",
+        image       : require('../images/icons/spa-icon.svg'),
+        altTag: "Special Pricing Agreement",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "special-pricing-agreement-icon",
+        iconID:12
+      },
+          {
+        title:"Special Pricing Agreement",
+        image       : require('../images/icons/spa-icon.svg'),
+        altTag: "Special Pricing Agreement",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "special-pricing-agreement-icon",
+        iconID:12
+      },
+            {
+        title:"Star",
+        image       : require('../images/icons/star.svg'),
+        altTag: "Star",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "star-icon",
+        iconID:12
+      },
+          {
+        title:"Star Half",
+        image       : require('../images/icons/star-half.svg'),
+        altTag: "Star half",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "star-half-icon",
+        iconID:12
+      },
+      {
+        title:"Star Outline",
+        image       : require('../images/icons/star-outline.svg'),
+        altTag: "Star Outline",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "stars-outline-icon",
+        iconID:12
+      },
+        {
+        title:"Timestamp",
+        image       : require('../images/icons/timestamp.svg'),
+        altTag: "time stamp",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "time-stamp-icon",
+        iconID:12
+      },
+         {
+        title:"Tools",
+        image       : require('../images/icons/tools.svg'),
+        altTag: "tools",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "tools-icon",
+        iconID:12
+      },
+          {
+        title:"Unassigned",
+        image       : require('../images/icons/unassigned.svg'),
+        altTag: "unassigned",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "unassigned-icon",
+        iconID:12
+      },
+         {
+        title:"View",
+        image       : require('../images/icons/view.svg'),
+        altTag: "view",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "view-icon",
+        iconID:12
+      },
+         {
+        title:"Warning",
+        image       : require('../images/icons/warning.svg'),
+        altTag: "warning",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "warning-icon",
+        iconID:12
+      },
+         {
+        title:"Website",
+        image       : require('../images/icons/website.svg'),
+        altTag: "website",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "website-icon",
+        iconID:12
+      },
+         {
+        title:"Zoom In",
+        image       : require('../images/icons/zoom-in.svg'),
+        altTag: "zoom in",
+        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        class: "zoom-in-icon",
         iconID:12
       },
       ]

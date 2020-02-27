@@ -13,7 +13,6 @@
               <div class="icon-download-section">
               <div class="download-box"><a :href="item.image" download><img src="../images/icons/download.svg" alt="download icon">SVG</a></div>
               <div class="download-box"><a :href="item.image" download><img src="../images/icons/download.svg" alt="download icon">PNG</a></div>
-              <div class="download-box"><a :href="item.image" download><img src="../images/icons/sketch.svg" alt="download icon">Sketch</a></div>
               </div>
               <div class="icon-body">
               <h5>Description</h5>
@@ -127,7 +126,7 @@ figure {
 
 .icon-download-section {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 background-color:#ffffff;
 }
 
