@@ -612,7 +612,7 @@ export default{
         altTag: "service",
         description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
         class: "service-icon",
-        iconID:12
+        iconID:13
       },
          {
         title:"Share",
