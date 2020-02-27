@@ -82,7 +82,7 @@ export default{
         title:"360",
         image       : require('../images/icons/360.svg'),
         altTag: "360 icon",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Goes with the 360 imagery on PDP.",
         class: "threesixty-icon",
         iconID:1
       },
@@ -90,7 +90,7 @@ export default{
         title:"Account with Circle",
         image       : require('../images/icons/account-circle.svg'),
         altTag: "account circle",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate user account access.",
         class: "account-circle-icon",
         iconID:1
       },
@@ -98,7 +98,7 @@ export default{
         title:"Add Credit Card",
         image       : require('../images/icons/add-credit-card.svg'),
         altTag: "add credit card",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a credit card can be added.",
         class: "add-credit-card-icon",
         iconID:1
       },
@@ -106,7 +106,7 @@ export default{
         title:"Add Person",
         image       : require('../images/icons/add-person.svg'),
         altTag: "add person",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indiacte where a user will go to create a contact. This is used throughout Connect.",
         class: "add-person-icon",
         iconID:12
       },
@@ -122,23 +122,15 @@ export default{
         title:"Add to Calendar",
         image       : require('../images/icons/calendar-add.svg'),
         altTag: "add to calendar",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates a product or item can be added to an order.",
         class: "add-to-calendar-icon",
         iconID:2
-      },
-      {
-        title:"Add to Favorites",
-        image       : require('../images/icons/add-to-favorites.svg'),
-        altTag: "add to favorites",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "add-to-favorites-icon",
-        iconID:3
       },
       {
         title:"Add to Order",
         image       : require('../images/icons/add-to-order.svg'),
         altTag: "add to order",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates a product or item can be added to an order.",
         class: "add-to-order-icon",
         iconID:11
       },
@@ -146,7 +138,7 @@ export default{
         title:"Arrow",
         image       : require('../images/icons/arrow.svg'),
         altTag: "arrow",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "An arrow is used to indicate that an action will take you to another page.",
         class: "arrow-icon",
         iconID:6
       },
@@ -154,7 +146,7 @@ export default{
         title:"Assign Back",
         image       : require('../images/icons/assign-back.svg'),
         altTag: "assign back",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates that an item can be assigned to an account.",
         class: "assigne-back-icon",
         iconID:4
       },
@@ -162,7 +154,7 @@ export default{
         title:"Assigned Leads",
         image       : require('../images/icons/assigned-leads.svg'),
         altTag: "assigned leads",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to mark assigned leads",
         class: "assigned-leads-icon",
         iconID:4
       },
@@ -170,23 +162,15 @@ export default{
         title:"Attachment",
         image       : require('../images/icons/attachment.svg'),
         altTag: "attachment",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that you can attach a file to an item. It should be placed logically near the item you will be attaching the file to.",
         class: "attachment-icon",
         iconID:5
-      },
-      {
-     title:"Calendar Add",
-        image       : require('../images/icons/calendar-add.svg'),
-        altTag: "calendar add",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "calendar-add-icon",
-        iconID:7
       },
       {
      title:"Calendar Date Range Picker",
         image       : require('../images/icons/calendar-date-range-picker.svg'),
         altTag: "calendar date range",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for selecting a range of dates such as filtering, etc.",
         class: "calendar-date-range-picker-icon",
         iconID:7
       },
@@ -194,7 +178,7 @@ export default{
      title:"Calendar Schedule",
         image       : require('../images/icons/calendar-schedule.svg'),
         altTag: "calendar schedule",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to show a date has been picked. e.g. Picking a scheduled delivery date, an appointment, etc.",
         class: "calendar-schedule-icon",
         iconID:7
       },
@@ -202,7 +186,7 @@ export default{
         title:"Chat Bubble",
         image       : require('../images/icons/chat-bubble.svg'),
         altTag: "Chat Bubble",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a chat option is available. ",
         class: "chat-bubble-icon",
         iconID:8
       },
@@ -210,7 +194,7 @@ export default{
         title:"Checkbox Blank",
         image       : require('../images/icons/check-box-outline-blank.svg'),
         altTag: "checkbox blank",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "This should be used as the Allied default unselected checkbox.",
         class: "checkbox-blank-icon",
         iconID:10
       },
@@ -218,7 +202,7 @@ export default{
         title:"Checkbox Checked",
         image       : require('../images/icons/check-box-checked.svg'),
         altTag: "checkbox checked",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "This is the selected state of the Allied default checkbox.",
         class: "check-box-checked-icon",
         iconID:10
       },
@@ -226,7 +210,7 @@ export default{
         title:"Chevron",
         image       : require('../images/icons/chevron.svg'),
         altTag: "chevron",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "The chevron is not used in the same manner that an arrow is used. Chevrons are used to indicate that more information is avialable to a user by interacting with it or the title/bar that is is associated with.",
         class: "chevron-icon",
         iconID:10
       },
@@ -234,15 +218,23 @@ export default{
         title:"Chevron Filled",
         image       : require('../images/icons/chevron-filled.svg'),
         altTag: "chevron filled",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "The chevron is not used in the same manner that an arrow is used. Chevrons are used to indicate that more information is avialable to a user by interacting with it or the title/bar that is is associated with.",
         class: "chevron-filled-icon",
         iconID:10
+      },
+      {
+        title:"Circle Add",
+        image       : require('../images/icons/circles-add.svg'),
+        altTag: "circle add",
+        description: "Used to indicate that the user can add an item to a given pattern. As an example, if a user can add a row to the bottom of a table, use this icon with the appropriate text lable.",
+        class: "circle-add--icon",
+        iconID:12
       },
         {
         title:"Close",
         image       : require('../images/icons/close.svg'),
         altTag: "close",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a user can close a component. This icon can be used in any available brand color to accomodate for accessibility. This is a low profile version of the close with circle icon. This is used primarily in connect.",
         class: "close-icon",
         iconID:12
       },
@@ -250,7 +242,7 @@ export default{
         title:"Close with Circle",
         image       : require('../images/icons/close-with-circle.svg'),
         altTag: "close with circle",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a user can close a component. This icon can be used in any available brand color to accomodate for accessibility. This is used primarily on the web.",
         class: "close-with-circle-icon",
         iconID:12
       },
@@ -258,7 +250,7 @@ export default{
         title:"Cloud Upload",
         image       : require('../images/icons/cloud-upload.svg'),
         altTag: "cloud upload",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "This icon is used to indicate that a user can upload files.",
         class: "cloud-upload-icon",
         iconID:12
       },
@@ -266,7 +258,7 @@ export default{
         title:"Collapse All",
         image       : require('../images/icons/collapse-all.svg'),
         altTag: "collapse all",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to collapse all sections of an accordion. e.g. The connect order pad uses this icon in a button to collapse all the line levels.",
         class: "collapse-all-icon",
         iconID:12
       },
@@ -274,7 +266,7 @@ export default{
         title:"Comment",
         image       : require('../images/icons/comment.svg'),
         altTag: "comment",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that s user can add a comment.",
         class: "comment-icon",
         iconID:12
       },
@@ -282,23 +274,15 @@ export default{
         title:"Compare",
         image       : require('../images/icons/compare.svg'),
         altTag: "comment",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that item comparison is availabe.",
         class: "compare-icon",
-        iconID:12
-      },
-          {
-        title:"Compliance Check",
-        image       : require('../images/icons/compliance-check.svg'),
-        altTag: "compliance check",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "compliance-check-icon",
         iconID:12
       },
         {
         title:"Currency",
         image       : require('../images/icons/currency.svg'),
         altTag: "currency",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a user can access diffefent currency options.",
         class: "currency-icon",
         iconID:12
       },
@@ -306,7 +290,7 @@ export default{
         title:"Customers",
         image       : require('../images/icons/customers.svg'),
         altTag: "customers",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that multiple customer options are availabe.",
         class: "customers-icon",
         iconID:12
       },
@@ -314,7 +298,7 @@ export default{
         title:"Dashboard",
         image       : require('../images/icons/dashboard.svg'),
         altTag: "dashboard",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that data dashboards are available.",
         class: "dashboard-icon",
         iconID:12
       },
@@ -322,7 +306,7 @@ export default{
         title:"Delete",
         image       : require('../images/icons/delete.svg'),
         altTag: "delete",
-        description: "Add to trash is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate to a user how to delete an item or component. It should be closely associated with the compoenent or item that will be deleted. Use confirmation messages as needed to reduce the chance a user accidentally deletes important items.",
         class: "delete-icon",
         iconID:12
       },
@@ -330,7 +314,7 @@ export default{
         title:"Download",
         image       : require('../images/icons/download.svg'),
         altTag: "download",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that an item or file can be downloaded.",
         class: "download-icon",
         iconID:12
       },
@@ -338,7 +322,7 @@ export default{
         title:"Edit",
         image       : require('../images/icons/edit.svg'),
         altTag: "edit",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that an item or information can be edited.",
         class: "edit-icon",
         iconID:12
       },
@@ -346,7 +330,7 @@ export default{
         title:"Email",
         image       : require('../images/icons/email-outlined.svg'),
         altTag: "email",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that information is currently saved as an email address.",
         class: "email-outlined-icon",
         iconID:12
       },
@@ -354,7 +338,7 @@ export default{
         title:"Excel",
         image       : require('../images/icons/excel.svg'),
         altTag: "excel",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a file is an Excel file type.",
         class: "excel-icon",
         iconID:12
       },
@@ -362,15 +346,23 @@ export default{
         title:"Excess Inventory",
         image       : require('../images/icons/excess-inventory.svg'),
         altTag: "excess inventory",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that excess inventory is available.",
         class: "excess-inventory-icon",
+        iconID:12
+      },
+            {
+        title:"Favorite Heart",
+        image       : require('../images/icons/favorite-heart.svg'),
+        altTag: "Favorite Heart",
+        description: "Favorites is used to identify that an item has been added to favorites. It should always be placed logically near the item the user has added.",
+        class: "favorite-heart-icon",
         iconID:12
       },
       {
         title:"Fax",
         image       : require('../images/icons/fax.svg'),
         altTag: "fax",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that a fax option is available to the user.",
         class: "fax-icon",
         iconID:12
       },
@@ -378,7 +370,7 @@ export default{
         title:"Filter - Single",
         image       : require('../images/icons/filter-single.svg'),
         altTag: "filter single",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used primary for filter buttons that filter a single column in a data tables.",
         class: "filter-single-icon",
         iconID:12
       },
@@ -386,7 +378,7 @@ export default{
         title:"Filters",
         image       : require('../images/icons/filters.svg'),
         altTag: "filters",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that multiple filters are available. Used with a text lable for clarity and is most commonly used to access an off canvas that contains the filters.",
         class: "filters-icon",
         iconID:12
       },
@@ -394,7 +386,7 @@ export default{
         title:"Fullscreen",
         image       : require('../images/icons/fullscreen.svg'),
         altTag: "fullscreen",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to show that a item can be expanded to a fullscreen mode.",
         class: "fullscreen-icon",
         iconID:12
       },
@@ -402,7 +394,7 @@ export default{
         title:"Grid Display",
         image       : require('../images/icons/grid-display.svg'),
         altTag: "grid display",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to switch a users display pattern to a grid format.",
         class: "grid-display-icon",
         iconID:12
       },
@@ -410,7 +402,7 @@ export default{
         title:"Hazardous Material",
         image       : require('../images/icons/hazardous-material.svg'),
         altTag: "hazardous material",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that an item contains hazardous materials.",
         class: "hazardous-material-icon",
         iconID:12
       },
@@ -418,7 +410,7 @@ export default{
         title:"Home",
         image       : require('../images/icons/home.svg'),
         altTag: "home",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that a user can return to the “Home Screen” of their current application.",
         class: "home-icon",
         iconID:12
       },
@@ -426,7 +418,7 @@ export default{
         title:"Info",
         image       : require('../images/icons/info.svg'),
         altTag: "info",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that more information is available to the user by interacting with the icon.",
         class: "info-icon",
         iconID:12
       },
@@ -434,7 +426,7 @@ export default{
         title:"Leads",
         image       : require('../images/icons/leads.svg'),
         altTag: "leads",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used as the identifying icon for Lead Management in Connect.",
         class: "leads-icon",
         iconID:12
       },
@@ -442,7 +434,7 @@ export default{
         title:"List Display",
         image       : require('../images/icons/list-display.svg'),
         altTag: "list display",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to switch a users displah pattern to a list format.",
         class: "list-display-icon",
         iconID:12
       },
@@ -450,7 +442,7 @@ export default{
         title:"Lock",
         image       : require('../images/icons/lock.svg'),
         altTag: "lock",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used in Connect for the admin section which handles our permissions.",
         class: "lock-icon",
         iconID:12
       },
@@ -458,7 +450,7 @@ export default{
         title:"Map Marker",
         image       : require('../images/icons/map-marker.svg'),
         altTag: "map marker",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Identifys when address locations are found.",
         class: "map-marker-icon",
         iconID:12
       },
@@ -466,7 +458,7 @@ export default{
         title:"Menu",
         image       : require('../images/icons/menu.svg'),
         altTag: "menu",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "The default mobile menu icon for Allied digital applications.",
         class: "menu-icon",
         iconID:12
       },
@@ -474,7 +466,7 @@ export default{
         title:"Mobile Phone",
         image       : require('../images/icons/mobile-phone.svg'),
         altTag: "mobile phone",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify a mobile number or mobile options.",
         class: "mobile-phone-icon",
         iconID:12
       },
@@ -482,7 +474,7 @@ export default{
         title:"More",
         image       : require('../images/icons/more.svg'),
         altTag: "more",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Identifies when more information is available.",
         class: "more-icon",
         iconID:12
       },
@@ -490,7 +482,7 @@ export default{
         title:"Notes",
         image       : require('../images/icons/notes.svg'),
         altTag: "notes",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for users to add notes.",
         class: "notes-icon",
         iconID:12
       },
@@ -498,7 +490,7 @@ export default{
         title:"Notifications",
         image       : require('../images/icons/notifications-bell.svg'),
         altTag: "notifications",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Identifys the notification section. Can be accomplanied by numerical badges to indicate the number of notifcations.",
         class: "notifications-icon",
         iconID:12
       },
@@ -506,7 +498,7 @@ export default{
         title:"Office Phone",
         image       : require('../images/icons/office-phone.svg'),
         altTag: "office phone",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates when an office phone number is available or can be entered.",
         class: "office-phone-icon",
         iconID:12
       },
@@ -514,7 +506,7 @@ export default{
         title:"Order Confirmation",
         image       : require('../images/icons/order-confirmation.svg'),
         altTag: "order confirmation",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate order confirmation documents.",
         class: "order-confirmation-icon",
         iconID:12
       },
@@ -530,7 +522,7 @@ export default{
         title:"Paste",
         image       : require('../images/icons/paste.svg'),
         altTag: "paste",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to paste thing suchs as credit card tokens in Connect.",
         class: "paste-icon",
         iconID:12
       },
@@ -538,7 +530,7 @@ export default{
         title:"PDF",
         image       : require('../images/icons/pdf.svg'),
         altTag: "paste",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to indicate that a file is a PDF file type.",
         class: "paste-icon",
         iconID:12
       },
@@ -546,7 +538,7 @@ export default{
         title:"Plus",
         image       : require('../images/icons/plus.svg'),
         altTag: "plus",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to add additional items to the page.",
         class: "plus-icon",
         iconID:12
       },
@@ -554,7 +546,7 @@ export default{
         title:"Previously Purchased",
         image       : require('../images/icons/previous-purchased.svg'),
         altTag: "Previously Purchased",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify when items have been previously purchased by the same user.",
         class: "previously-purchased-icon",
         iconID:12
       },
@@ -562,7 +554,7 @@ export default{
         title:"Priority",
         image       : require('../images/icons/priority.svg'),
         altTag: "Priority",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates something is of high priority.",
         class: "priority-icon",
         iconID:12
       },
@@ -570,7 +562,7 @@ export default{
         title:"Quote",
         image       : require('../images/icons/quote.svg'),
         altTag: "quote",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Identifies a quote.",
         class: "quote-icon",
         iconID:12
       },
@@ -578,7 +570,7 @@ export default{
         title:"Reassign",
         image       : require('../images/icons/reassign.svg'),
         altTag: "reassign",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to reassign leads/users/people to another list or page.",
         class: "reassign-icon",
         iconID:12
       },
@@ -586,7 +578,7 @@ export default{
         title:"ROHS Compliant",
         image       : require('../images/icons/rohs-compliant.svg'),
         altTag: "rohs compliant",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to identify that an item is RoHS compliant. Orange checkmark indicates it's ROHS exempt",
         class: "rohs-compliant-icon",
         iconID:12
       },
@@ -594,7 +586,7 @@ export default{
         title:"Search",
         image       : require('../images/icons/search.svg'),
         altTag: "search",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used in the search bar or a search button to activate search functionality.",
         class: "search-icon",
         iconID:12
       },
@@ -602,7 +594,7 @@ export default{
         title:"Send",
         image       : require('../images/icons/send.svg'),
         altTag: "send",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used in a button to send a message or file to another user.",
         class: "send-icon",
         iconID:12
       },
@@ -610,7 +602,7 @@ export default{
         title:"Service",
         image       : require('../images/icons/service.svg'),
         altTag: "service",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates customer service.",
         class: "service-icon",
         iconID:12
       },
@@ -618,31 +610,31 @@ export default{
         title:"Share",
         image       : require('../images/icons/share.svg'),
         altTag: "share",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for sharing the page with other users.",
         class: "share-icon",
+        iconID:12
+      },
+               {
+        title:"Shipping",
+        image       : require('../images/icons/shipping.svg'),
+        altTag: "shipping",
+        description: "Indicates and item or order has been shipped. It usually has a tracking # associated with it.",
+        class: "shipping-icon",
         iconID:12
       },
           {
         title:"Shipping Box",
         image       : require('../images/icons/shipping-box.svg'),
         altTag: "shipping box",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used in Connect on the navigation for Supplier Central",
         class: "shipping-box-icon",
-        iconID:12
-      },
-          {
-        title:"Shipping",
-        image       : require('../images/icons/shipping.svg'),
-        altTag: "shipping",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "shipping-icon",
         iconID:12
       },
           {
         title:"Shopping Cart",
         image       : require('../images/icons/shopping-cart.svg'),
         altTag: "shipping box",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates the shopping cart. This icon can also have numerical badges on the top right displaying the number of items the user has in the shopping cart.",
         class: "shopping-cart-icon",
         iconID:12
       },
@@ -650,15 +642,7 @@ export default{
         title:"Special Pricing Agreement",
         image       : require('../images/icons/spa-icon.svg'),
         altTag: "Special Pricing Agreement",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
-        class: "special-pricing-agreement-icon",
-        iconID:12
-      },
-          {
-        title:"Special Pricing Agreement",
-        image       : require('../images/icons/spa-icon.svg'),
-        altTag: "Special Pricing Agreement",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to display to the user a product has a special pricing agreement attached to it.",
         class: "special-pricing-agreement-icon",
         iconID:12
       },
@@ -666,7 +650,7 @@ export default{
         title:"Star",
         image       : require('../images/icons/star.svg'),
         altTag: "Star",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for ratings and is accompanied by multiple star family icons that can be star, star-half, and/or star-outline.",
         class: "star-icon",
         iconID:12
       },
@@ -674,7 +658,7 @@ export default{
         title:"Star Half",
         image       : require('../images/icons/star-half.svg'),
         altTag: "Star half",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for ratings and is accompanied by multiple star family icons that can be star, star-half, and/or star-outline.",
         class: "star-half-icon",
         iconID:12
       },
@@ -682,7 +666,7 @@ export default{
         title:"Star Outline",
         image       : require('../images/icons/star-outline.svg'),
         altTag: "Star Outline",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for ratings and is accompanied by multiple star family icons that can be star, star-half, and/or star-outline.",
         class: "stars-outline-icon",
         iconID:12
       },
@@ -690,7 +674,7 @@ export default{
         title:"Timestamp",
         image       : require('../images/icons/timestamp.svg'),
         altTag: "time stamp",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used with a timestamp to show when a user entered or modified data.",
         class: "time-stamp-icon",
         iconID:12
       },
@@ -698,7 +682,7 @@ export default{
         title:"Tools",
         image       : require('../images/icons/tools.svg'),
         altTag: "tools",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates where addtional tools are available.",
         class: "tools-icon",
         iconID:12
       },
@@ -706,7 +690,7 @@ export default{
         title:"Unassigned",
         image       : require('../images/icons/unassigned.svg'),
         altTag: "unassigned",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates unassigned leads/users/people to a list or page.",
         class: "unassigned-icon",
         iconID:12
       },
@@ -714,7 +698,7 @@ export default{
         title:"View",
         image       : require('../images/icons/view.svg'),
         altTag: "view",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used to preview hidden information.",
         class: "view-icon",
         iconID:12
       },
@@ -722,7 +706,7 @@ export default{
         title:"Warning",
         image       : require('../images/icons/warning.svg'),
         altTag: "warning",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used as a warning to indicate restrictions or road blocks.",
         class: "warning-icon",
         iconID:12
       },
@@ -730,7 +714,7 @@ export default{
         title:"Website",
         image       : require('../images/icons/website.svg'),
         altTag: "website",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Indicates an external URL and will navigate the user out of their current experience.",
         class: "website-icon",
         iconID:12
       },
@@ -738,7 +722,7 @@ export default{
         title:"Zoom In",
         image       : require('../images/icons/zoom-in.svg'),
         altTag: "zoom in",
-        description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
+        description: "Used for zooming into images or descriptions for visual clarity.",
         class: "zoom-in-icon",
         iconID:12
       },
