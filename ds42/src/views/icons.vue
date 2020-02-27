@@ -1,6 +1,6 @@
 <template>
  <div class="page-grid">
-          <div class="page-overview purple-gradient">
+          <div class="page-overview red-gradient">
             <div class="content-column-left">
               <div>
                 <h2>Iconography</h2>
@@ -8,7 +8,7 @@
                 <p>These guidelines are a starting point to ensure that your product icon colors and key elements reflect our brand identity.</p>
               </div>
               <div>
-                <img alt="Components Overview" class="overview-image" src="../images/components-overview.svg">
+                <img alt="Components Overview" class="overview-image" src="../images/icons-banner.svg">
               </div>
             </div>
           </div>
