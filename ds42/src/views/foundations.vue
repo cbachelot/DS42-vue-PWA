@@ -44,7 +44,16 @@ export default{
         compTitle:"Typography",
         image       : require('../images/type-preview.svg'),
         altTag: "Typography",
-        shortDesc: "A collection of DS42 components including code and guidelines.",
+        shortDesc: "Typography helps us maintain our voice with the customer.",
+        router: '/typography',
+        compId:2
+      }
+      ,
+      {
+        compTitle:"Iconography",
+        image       : require('../images/icon-preview.svg'),
+        altTag: "Iconography",
+        shortDesc: "Icons help us communicate clearly and effectively with the user through simple visual ques.",
         router: '/typography',
         compId:2
       }

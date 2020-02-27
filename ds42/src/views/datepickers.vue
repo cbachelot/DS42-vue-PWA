@@ -1,7 +1,7 @@
 <template>
     <div class="page-grid">
 
-                <div class="page-overview purple-gradient">
+                <div class="page-overview red-gradient">
                     <div class="content-column-left">
                             <div>
                                 <h2>Date Pickers</h2>
