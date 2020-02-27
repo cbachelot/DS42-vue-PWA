@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Assigned-Orders</title>
+<svg width="25px" height="18px" viewBox="0 0 25 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>assigned-leads</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Assigned-Orders" transform="translate(1.000000, 0.000000)">
-            <g>
-                <g id="Group-8" transform="translate(6.000000, 0.000000)" fill="#686868">
-                    <g id="Group-10">
-                        <g id="Group-9">
-                            <path d="M8.5,8.5 C10.8375,8.5 12.75,6.5875 12.75,4.25 C12.75,1.9125 10.8375,0 8.5,0 C6.1625,0 4.25,1.9125 4.25,4.25 C4.25,6.5875 6.1625,8.5 8.5,8.5 L8.5,8.5 Z" id="Path"></path>
-                            <path d="M8.5,10.625 C5.63125,10.625 0,12.00625 0,14.875 L0,17 L17,17 L17,14.875 C17,12.00625 11.36875,10.625 8.5,10.625 L8.5,10.625 Z" id="Path"></path>
-                        </g>
-                    </g>
+        <g id="Artboard" transform="translate(-174.000000, -23.000000)">
+            <g id="Assigned-Orders" transform="translate(174.000000, 23.000000)">
+                <g id="Man-Color" transform="translate(6.352941, 0.000000)" fill="#2C2C2C">
+                    <path d="M8.80223024,11.2519873 L9,11.25 C11.9728723,11.25 17.7476007,12.650928 17.991988,15.5582549 L18,15.75 L18,18 L0,18 L0,15.75 C0,12.7771277 5.71147578,11.312947 8.80223024,11.2519873 L8.80223024,11.2519873 Z M9,0 C11.475,0 13.5,2.025 13.5,4.5 C13.5,6.975 11.475,9 9,9 C6.525,9 4.5,6.975 4.5,4.5 C4.5,2.025 6.525,0 9,0 Z"></path>
                 </g>
-                <g id="check" transform="translate(0.000000, 3.000000)" fill="#8FA500" stroke="#8FA500" stroke-width="0.5">
-                    <g id="check-copy" transform="translate(0.000000, 0.714286)">
-                        <polygon id="Shape" points="2.66666667 6.4 0.8 4 0.177777778 4.8 2.66666667 8 8 1.14285714 7.37777778 0.342857143"></polygon>
-                    </g>
+                <g id="Check-Color" transform="translate(0.188235, 4.295798)" fill="#5B9500">
+                    <polygon points="2.63529412 6.41344538 0.658823529 3.87226891 -7.52339367e-14 4.71932773 2.63529412 8.10756303 8.28235294 0.847058824 7.62352941 9.40424209e-16"></polygon>
                 </g>
             </g>
         </g>

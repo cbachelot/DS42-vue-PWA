@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="9px" height="11px" viewBox="0 0 9 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
     <title>delete</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="delete" fill="#9E0000">
-            <g id="Shape">
-                <path d="M0.642857143,9.77777778 C0.642857143,10.45 1.22142857,11 1.92857143,11 L7.07142857,11 C7.77857143,11 8.35714286,10.45 8.35714286,9.77777778 L8.35714286,2.44444444 L0.642857143,2.44444444 L0.642857143,9.77777778 L0.642857143,9.77777778 Z M9,0.611111111 L6.75,0.611111111 L6.10714286,0 L2.89285714,0 L2.25,0.611111111 L0,0.611111111 L0,1.83333333 L9,1.83333333 L9,0.611111111 L9,0.611111111 Z"></path>
+        <g id="Artboard" transform="translate(-481.000000, -202.000000)" fill="#9E0000">
+            <g id="delete" transform="translate(481.000000, 202.000000)">
+                <g id="Shape">
+                    <path d="M1.02857143,16 C1.02857143,17.1 1.95428571,18 3.08571429,18 L11.3142857,18 C12.4457143,18 13.3714286,17.1 13.3714286,16 L13.3714286,4 L1.02857143,4 L1.02857143,16 L1.02857143,16 Z M14.4,1 L10.8,1 L9.77142857,0 L4.62857143,0 L3.6,1 L0,1 L0,3 L14.4,3 L14.4,1 L14.4,1 Z"></path>
+                </g>
             </g>
         </g>
     </g>

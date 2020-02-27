@@ -16,9 +16,10 @@ body {
 }
 
 p {
-  line-height: 28px;
+  line-height: 20px;
   font-size: 16px;
   font-weight: 300;
+  margin-top: 10px;
 }
 
 img.nav-logo {
@@ -80,12 +81,14 @@ h3 {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 9px;
+  margin-top: 0px;
 }
 
 h4 {
   font-weight: 300;
   font-size: 20px;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 ul {
@@ -408,7 +411,7 @@ nav a {
       min-content,
       2fr
     );
-  margin: 100px 0px;
+  margin: 50px 0px;
   grid-column-gap: 2%;
 }
 
@@ -616,6 +619,26 @@ span.black-icon-overwrite:before {
   grid-column-gap: 4%;
 }
 
+.icon-column-layout > div {
+  display: grid;
+  padding-left: 15px;
+  padding-right: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: .5%;
+}
+
+.icon-main {
+  background-color: $allied_background_gray_l;
+  padding-bottom: 18px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.icon-main h3 {
+  padding-top: 33px;
+  margin-left: 26px;
+}
+
 /*.four-column-layout {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -653,6 +676,32 @@ a .overview-section-cta:hover {
   -ms-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+}
+
+.icon-section-cta {
+  margin: 10px;
+  padding: 44px 8px 8px 8px;
+  background-color: $allied_white;
+  border: solid $allied_white 1px;
+  border-radius: 2px;
+  text-align: center;
+  height: 100px;
+  max-width: 125px;
+  
+}
+
+.icon-section-cta:hover {
+  border: solid $allied_support_gray_l 1px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -ms-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.icon-top {
+  height: 30px;
 }
 
 .column-layout a:hover {
@@ -785,6 +834,88 @@ img.icon {
   background-color: $allied_background_gray_l;
 }
 
+/**
+ * Forms
+ */
+ .form-input {
+  display: block;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.form-input > .material-icons {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 1.2rem;
+}
+.form-input > .material-icons ~ input, .form-input > .material-icons ~ .label, .form-input > .material-icons ~ .underline {
+  margin-left: 2.25rem;
+  width: calc(100% - 2.25rem);
+}
+.form-input input {
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  padding-top: 1.5rem;
+  padding-right: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 10px;
+  outline-style: none;
+  width: 97%;
+}
+.form-input input ~ .label {
+  color: #979797;
+  font-size: 1rem;
+  margin: 0;
+  pointer-events: none;
+  position: absolute;
+  top: .75rem;
+  left: 10px;
+  transition: top .2s,font .2s;
+  z-index: 1;
+}
+.form-input input ~ .underline {
+  background-color: #bdc1c5;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.form-input input:hover ~ .underline, .form-input input:focus ~ .underline {
+  background-color: #a04177;
+}
+.form-input input:hover ~ .label, .form-input input:focus ~ .label {
+  color: #a04177;
+}
+.form-input input:focus ~ .underline {
+  height: 2px;
+}
+.form-input input:focus ~ .label, .form-input input:valid ~ .label {
+  top: 0;
+  font-size: 0.85rem;
+}
+.form-input input:-webkit-autofill ~ .label {
+  top: 0;
+  font-size: 0.85rem;
+}
+
+.icon-title-area {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-areas: "title search";
+  padding-right: 25px;
+}
+
+.search-area {
+  grid-area: search;
+  margin-top:25px;
+  max-width: 100%;
+}
+
+.icon-title {
+  grid-area: title;
+}
+
 @media only screen and (max-width: 1400px) {
   .page-overview .content-column-left {
     display: grid;
@@ -801,6 +932,17 @@ img.icon {
     grid-template-areas:
       "nav"
       "body";
+  }
+  
+  .icon-title-area {
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "search";
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .icon-main {
+    padding: 0px;
   }
 
   /*Allied Typography*/
@@ -948,3 +1090,6 @@ img.icon {
     margin: 0 6px;
   }
 }
+
+
+

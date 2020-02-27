@@ -11,6 +11,7 @@
 <hr><div class="ds42-nav-title">Foundations</div>
 <router-link  to="/foundations">Foundations Overview</router-link>
 <router-link  to="/colors">Colors</router-link>
+<router-link  to="/icons">Iconography</router-link>
 <router-link  to="/typography">Typography</router-link>
 <hr><div class="ds42-nav-title">Components</div>
 <router-link  to="/componentsoverview">Components Overview</router-link>
