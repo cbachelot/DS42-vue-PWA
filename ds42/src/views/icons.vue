@@ -81,6 +81,7 @@ export default{
       {
         title:"360",
         image       : require('../images/icons/360.svg'),
+        imagepng       : require('../images/icons/360.png'),
         altTag: "360 icon",
         description: "Goes with the 360 imagery on PDP.",
         class: "threesixty-icon",
@@ -89,6 +90,7 @@ export default{
         {
         title:"Account with Circle",
         image       : require('../images/icons/account-circle.svg'),
+        imagepng       : require('../images/icons/account-circle.png'),
         altTag: "account circle",
         description: "Used to indicate user account access.",
         class: "account-circle-icon",
@@ -97,6 +99,7 @@ export default{
         {
         title:"Add Credit Card",
         image       : require('../images/icons/add-credit-card.svg'),
+        imagepng       : require('../images/icons/add-credit-card.png'),
         altTag: "add credit card",
         description: "Used to indicate that a credit card can be added.",
         class: "add-credit-card-icon",
@@ -105,6 +108,7 @@ export default{
        {
         title:"Add Person",
         image       : require('../images/icons/add-person.svg'),
+        imagepng       : require('../images/icons/add-person.png'),
         altTag: "add person",
         description: "Used to indiacte where a user will go to create a contact. This is used throughout Connect.",
         class: "add-person-icon",
@@ -113,6 +117,7 @@ export default{
         {
         title:"Add to Favorites",
         image       : require('../images/icons/add-to-favorites.svg'),
+        imagepng       : require('../images/icons/add-to-favorites.png'),
         altTag: "add favorites",
         description: "Add to favorites is used sparingly to encourgage users to save favored content for a future date. It should always be placed logically near the item the user is adding.",
         class: "add-to-favorites-icon",
@@ -121,6 +126,7 @@ export default{
        {
         title:"Add to Calendar",
         image       : require('../images/icons/calendar-add.svg'),
+        imagepng       : require('../images/icons/calendar-add.png'),
         altTag: "add to calendar",
         description: "Indicates a product or item can be added to an order.",
         class: "add-to-calendar-icon",
@@ -129,6 +135,7 @@ export default{
       {
         title:"Add to Order",
         image       : require('../images/icons/add-to-order.svg'),
+        imagepng       : require('../images/icons/add-to-order.png'),
         altTag: "add to order",
         description: "Indicates a product or item can be added to an order.",
         class: "add-to-order-icon",
@@ -137,6 +144,7 @@ export default{
       {
         title:"Arrow",
         image       : require('../images/icons/arrow.svg'),
+        imagepng       : require('../images/icons/arrow.png'),
         altTag: "arrow",
         description: "An arrow is used to indicate that an action will take you to another page.",
         class: "arrow-icon",
@@ -145,6 +153,7 @@ export default{
          {
         title:"Assign Back",
         image       : require('../images/icons/assign-back.svg'),
+        imagepng       : require('../images/icons/assign-back.png'),
         altTag: "assign back",
         description: "Indicates that an item can be assigned to an account.",
         class: "assigne-back-icon",
@@ -153,6 +162,7 @@ export default{
       {
         title:"Assigned Leads",
         image       : require('../images/icons/assigned-leads.svg'),
+        imagepng       : require('../images/icons/assigned-leads.png'),
         altTag: "assigned leads",
         description: "Used to mark assigned leads",
         class: "assigned-leads-icon",
@@ -161,6 +171,7 @@ export default{
       {
         title:"Attachment",
         image       : require('../images/icons/attachment.svg'),
+        imagepng       : require('../images/icons/attachment.png'),
         altTag: "attachment",
         description: "Used to indicate that you can attach a file to an item. It should be placed logically near the item you will be attaching the file to.",
         class: "attachment-icon",
@@ -169,6 +180,7 @@ export default{
       {
      title:"Calendar Date Range Picker",
         image       : require('../images/icons/calendar-date-range-picker.svg'),
+        imagepng       : require('../images/icons/calendar-date-range-picker.png'),
         altTag: "calendar date range",
         description: "Used for selecting a range of dates such as filtering, etc.",
         class: "calendar-date-range-picker-icon",
@@ -177,6 +189,7 @@ export default{
       {
      title:"Calendar Schedule",
         image       : require('../images/icons/calendar-schedule.svg'),
+        imagepng       : require('../images/icons/calendar-schedule.png'),
         altTag: "calendar schedule",
         description: "Used to show a date has been picked. e.g. Picking a scheduled delivery date, an appointment, etc.",
         class: "calendar-schedule-icon",
@@ -185,6 +198,7 @@ export default{
       {
         title:"Chat Bubble",
         image       : require('../images/icons/chat-bubble.svg'),
+        imagepng       : require('../images/icons/chat-bubble.png'),
         altTag: "Chat Bubble",
         description: "Used to indicate that a chat option is available. ",
         class: "chat-bubble-icon",
@@ -193,6 +207,7 @@ export default{
      {
         title:"Checkbox Blank",
         image       : require('../images/icons/check-box-outline-blank.svg'),
+        imagepng       : require('../images/icons/check-box-outline-blank.png'),
         altTag: "checkbox blank",
         description: "This should be used as the Allied default unselected checkbox.",
         class: "checkbox-blank-icon",
@@ -201,6 +216,7 @@ export default{
         {
         title:"Checkbox Checked",
         image       : require('../images/icons/check-box-checked.svg'),
+        imagepng       : require('../images/icons/check-box-checked.png'),
         altTag: "checkbox checked",
         description: "This is the selected state of the Allied default checkbox.",
         class: "check-box-checked-icon",
@@ -209,6 +225,7 @@ export default{
              {
         title:"Chevron",
         image       : require('../images/icons/chevron.svg'),
+        imagepng       : require('../images/icons/chevron.png'),
         altTag: "chevron",
         description: "The chevron is not used in the same manner that an arrow is used. Chevrons are used to indicate that more information is avialable to a user by interacting with it or the title/bar that is is associated with.",
         class: "chevron-icon",
@@ -217,6 +234,7 @@ export default{
                   {
         title:"Chevron Filled",
         image       : require('../images/icons/chevron-filled.svg'),
+        imagepng       : require('../images/icons/chevron-filled.png'),
         altTag: "chevron filled",
         description: "The chevron is not used in the same manner that an arrow is used. Chevrons are used to indicate that more information is avialable to a user by interacting with it or the title/bar that is is associated with.",
         class: "chevron-filled-icon",
@@ -225,6 +243,7 @@ export default{
       {
         title:"Circle Add",
         image       : require('../images/icons/circles-add.svg'),
+        imagepng       : require('../images/icons/circles-add.png'),
         altTag: "circle add",
         description: "Used to indicate that the user can add an item to a given pattern. As an example, if a user can add a row to the bottom of a table, use this icon with the appropriate text lable.",
         class: "circle-add--icon",
@@ -233,6 +252,7 @@ export default{
         {
         title:"Close",
         image       : require('../images/icons/close.svg'),
+        imagepng       : require('../images/icons/close.png'),
         altTag: "close",
         description: "Used to indicate that a user can close a component. This icon can be used in any available brand color to accomodate for accessibility. This is a low profile version of the close with circle icon. This is used primarily in connect.",
         class: "close-icon",
@@ -241,6 +261,7 @@ export default{
       {
         title:"Close with Circle",
         image       : require('../images/icons/close-with-circle.svg'),
+        imagepng       : require('../images/icons/close-with-circle.png'),
         altTag: "close with circle",
         description: "Used to indicate that a user can close a component. This icon can be used in any available brand color to accomodate for accessibility. This is used primarily on the web.",
         class: "close-with-circle-icon",
@@ -249,6 +270,7 @@ export default{
       {
         title:"Cloud Upload",
         image       : require('../images/icons/cloud-upload.svg'),
+        imagepng       : require('../images/icons/cloud-upload.png'),
         altTag: "cloud upload",
         description: "This icon is used to indicate that a user can upload files.",
         class: "cloud-upload-icon",
@@ -257,6 +279,7 @@ export default{
       {
         title:"Collapse All",
         image       : require('../images/icons/collapse-all.svg'),
+        imagepng       : require('../images/icons/collapse-all.png'),
         altTag: "collapse all",
         description: "Used to collapse all sections of an accordion. e.g. The connect order pad uses this icon in a button to collapse all the line levels.",
         class: "collapse-all-icon",
@@ -265,6 +288,7 @@ export default{
          {
         title:"Comment",
         image       : require('../images/icons/comment.svg'),
+        imagepng       : require('../images/icons/comment.png'),
         altTag: "comment",
         description: "Used to indicate that s user can add a comment.",
         class: "comment-icon",
@@ -273,6 +297,7 @@ export default{
          {
         title:"Compare",
         image       : require('../images/icons/compare.svg'),
+        imagepng       : require('../images/icons/compare.png'),
         altTag: "comment",
         description: "Used to indicate that item comparison is availabe.",
         class: "compare-icon",
@@ -281,6 +306,7 @@ export default{
         {
         title:"Currency",
         image       : require('../images/icons/currency.svg'),
+        imagepng       : require('../images/icons/currency.png'),
         altTag: "currency",
         description: "Used to indicate that a user can access diffefent currency options.",
         class: "currency-icon",
@@ -289,6 +315,7 @@ export default{
         {
         title:"Customers",
         image       : require('../images/icons/customers.svg'),
+        imagepng       : require('../images/icons/customers.png'),
         altTag: "customers",
         description: "Used to indicate that multiple customer options are availabe.",
         class: "customers-icon",
@@ -297,6 +324,7 @@ export default{
           {
         title:"Dashboard",
         image       : require('../images/icons/dashboard.svg'),
+        imagepng       : require('../images/icons/dashboard.png'),
         altTag: "dashboard",
         description: "Used to indicate that data dashboards are available.",
         class: "dashboard-icon",
@@ -305,6 +333,7 @@ export default{
         {
         title:"Delete",
         image       : require('../images/icons/delete.svg'),
+        imagepng       : require('../images/icons/delete.png'),
         altTag: "delete",
         description: "Used to indicate to a user how to delete an item or component. It should be closely associated with the compoenent or item that will be deleted. Use confirmation messages as needed to reduce the chance a user accidentally deletes important items.",
         class: "delete-icon",
@@ -313,6 +342,7 @@ export default{
         {
         title:"Download",
         image       : require('../images/icons/download.svg'),
+        imagepng       : require('../images/icons/download.png'),
         altTag: "download",
         description: "Used to indicate that an item or file can be downloaded.",
         class: "download-icon",
@@ -321,6 +351,7 @@ export default{
        {
         title:"Edit",
         image       : require('../images/icons/edit.svg'),
+        imagepng       : require('../images/icons/edit.png'),
         altTag: "edit",
         description: "Used to indicate that an item or information can be edited.",
         class: "edit-icon",
@@ -329,6 +360,7 @@ export default{
         {
         title:"Email",
         image       : require('../images/icons/email-outlined.svg'),
+        imagepng       : require('../images/icons/email-outlined.png'),
         altTag: "email",
         description: "Used to indicate that information is currently saved as an email address.",
         class: "email-outlined-icon",
@@ -337,6 +369,7 @@ export default{
           {
         title:"Excel",
         image       : require('../images/icons/excel.svg'),
+        imagepng       : require('../images/icons/excel.png'),
         altTag: "excel",
         description: "Used to indicate that a file is an Excel file type.",
         class: "excel-icon",
@@ -345,6 +378,7 @@ export default{
       {
         title:"Excess Inventory",
         image       : require('../images/icons/excess-inventory.svg'),
+        imagepng       : require('../images/icons/excess-inventory.png'),
         altTag: "excess inventory",
         description: "Used to indicate that excess inventory is available.",
         class: "excess-inventory-icon",
