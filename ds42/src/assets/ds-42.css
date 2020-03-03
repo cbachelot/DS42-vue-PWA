@@ -668,11 +668,14 @@ span.black-icon-overwrite:before {
   margin-left: 26px;
 }
 
-/*.four-column-layout {
+.four-column-layout {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-column-gap: 4%;
-}*/
+}
+
 .overview-section-cta {
   padding: 20px;
   border: solid white 1px;

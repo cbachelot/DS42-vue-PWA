@@ -775,13 +775,7 @@ export default{
   },
   computed: {
     filtericonlist: function() {
-      let filtered = this.iconlist;
-      if (this.search) {
-        filtered = this.iconlist.filter(
-          m => m.title.toLowerCase().indexOf(this.search) > -1
-        );
-      }
-      return filtered;
+      return this.iconlist.filter(m => m.title.toLowerCase().indexOf(this.search) > -1);
     }
   }
 }

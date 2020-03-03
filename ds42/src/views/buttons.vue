@@ -7,7 +7,6 @@
                 <div class="content-column-left">
                             <div>
                                 <h2>Buttons</h2>
-
                                     <p>Buttons communicate the action that will occur when the user touches them.</p>
                                     <p>Component buttons trigger a link reaction on press. They may display text, iconography,
                                         or both. Flat buttons and raised buttons are the most commonly used types.</p>
@@ -141,6 +140,7 @@
                         </div>
 
                             <div>
+
                                 <p data-height="265" data-theme-id="light" data-slug-hash="f9f4d66653c8fd271786e5a5e84e43d5"
                                     data-default-tab="html,result" data-user="cbachelot" data-embed-version="2"
                                     data-pen-title="Allied Primary Red" class="codepen">See the Pen <a
@@ -199,3 +199,4 @@ export default{
   }
 }
 </script>
+
