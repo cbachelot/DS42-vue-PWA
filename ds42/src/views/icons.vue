@@ -744,6 +744,14 @@ export default{
         class: "warning-icon",
         iconID:12
       },
+           {
+        title:"Zoom In",
+        image       : require('../images/icons/zoom-in.svg'),
+        altTag: "zoom in",
+        description: "Used for zooming into images or descriptions for visual clarity.",
+        class: "zoom-in-icon",
+        iconID:12
+      },
          {
         title:"Website",
         image       : require('../images/icons/website.svg'),
@@ -752,14 +760,7 @@ export default{
         class: "website-icon",
         iconID:12
       },
-         {
-        title:"Zoom In",
-        image       : require('../images/icons/zoom-in.svg'),
-        altTag: "zoom in",
-        description: "Used for zooming into images or descriptions for visual clarity.",
-        class: "zoom-in-icon",
-        iconID:12
-      },
+    
       ]
     };
   },
@@ -775,7 +776,7 @@ export default{
   },
   computed: {
     filtericonlist: function() {
-      return this.iconlist.filter(m => m.title.toLowerCase().indexOf(this.search) > -1);
+      return this.iconlist.filter(m => m.title.toLowerCase().indexOf(this.search) > -1).sort(i => i.title);
     }
   }
 }
