@@ -54,7 +54,7 @@ export default{
         image       : require('../images/icon-preview.svg'),
         altTag: "Iconography",
         shortDesc: "Icons help us communicate clearly and effectively with the user through simple visual ques.",
-        router: '/typography',
+        router: '/icons',
         compId:2
       }
       ]
