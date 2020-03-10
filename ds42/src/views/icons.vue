@@ -52,7 +52,7 @@
        <h4>Icon Standards</h4>
        <p>When creating an icon, the bounding around the icon should retain the standard sizes of 16x16, 32x32, and 48x48.</p> 
        <p>Avoid anitaliasing, and retain hard edges by utilizing SVG file formats.</p> 
-       <p>When designing a vertical or horizontal icon, center the icon in your standard size area and split the difference for equal spacing. Youc an design at any width or height as needed for the icon as long as the additional space can be split evenly in the container.</p>  
+       <p>When designing a vertical or horizontal icon, center the icon in your standard size area and split the difference for equal spacing. You can design at any width or height as needed for the icon as long as the additional space can be split evenly in the container.</p>  
        </div>
        <div class="icon-stanimg"><img src="../images/icon-size-example.svg" alt="icon example"></div>
        <div class="icon-stanimg2"><img src="../images/Icon-Res-Example.svg" alt="icon example"></div>
