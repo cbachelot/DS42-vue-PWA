@@ -71,6 +71,7 @@ export default {
         router: '/formfields',
         compId:5
       },
+      
       {
         compTitle:"Selection Controls",
         image       : require('./images/selection-controls-preview.svg'),
