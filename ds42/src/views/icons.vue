@@ -448,6 +448,14 @@ export default{
         class: "home-icon",
         iconID:12
       },
+         {
+        title:"In-Progress",
+        image       : require('../images/icons/in-progress.svg'),
+        altTag: "in-progress",
+        description: "Identifies when something is in-orogress or to be marked as in-progress.",
+        class: "in-progress-icon",
+        iconID:12
+      },
               {
         title:"Info",
         image       : require('../images/icons/info.svg'),
@@ -496,6 +504,14 @@ export default{
         class: "menu-icon",
         iconID:12
       },
+        {
+        title:"Microphone",
+        image       : require('../images/icons/mic.svg'),
+        altTag: "mic",
+        description: "Used to show audio is available such as a podcast.",
+        class: "mic-icon",
+        iconID:12
+      },
          {
         title:"Mobile Phone",
         image       : require('../images/icons/mobile-phone.svg'),
@@ -510,6 +526,14 @@ export default{
         altTag: "more",
         description: "Identifies when more information is available.",
         class: "more-icon",
+        iconID:12
+      },
+         {
+        title:"Non-Aerospace",
+        image       : require('../images/icons/non-aerospace.svg'),
+        altTag: "non-aerospace",
+        description: "Identifies when a product is non-aerospace complaint.",
+        class: "non-aerospace-icon",
         iconID:12
       },
            {
@@ -726,6 +750,14 @@ export default{
         altTag: "unassigned",
         description: "Indicates unassigned leads/users/people to a list or page.",
         class: "unassigned-icon",
+        iconID:12
+      },
+        {
+        title:"Video",
+        image       : require('../images/icons/video.svg'),
+        altTag: "video",
+        description: "Used to show a video is available.",
+        class: "video-icon",
         iconID:12
       },
          {

@@ -140,7 +140,7 @@
                         </div>
 
                             <div>
-
+                                 <h4>Primary Button</h4>
                                 <p data-height="265" data-theme-id="light" data-slug-hash="f9f4d66653c8fd271786e5a5e84e43d5"
                                     data-default-tab="html,result" data-user="cbachelot" data-embed-version="2"
                                     data-pen-title="Allied Primary Red" class="codepen">See the Pen <a
@@ -149,7 +149,7 @@
                                         href="https://codepen.io/cbachelot">@cbachelot</a>) on <a
                                         href="https://codepen.io">CodePen</a>.</p>
                                 <script async type="application/javascript" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+                                 <h4>Primary Green Connect Button</h4>
                                 <p data-height="265" data-theme-id="light" data-slug-hash="f684e4c9c01de1fe6cf39c8e7596b974"
                                     data-default-tab="html,result" data-user="cbachelot" data-embed-version="2"
                                     data-pen-title="f684e4c9c01de1fe6cf39c8e7596b974" class="codepen">See the Pen <a
@@ -157,7 +157,7 @@
                                     by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>) on <a
                                         href="https://codepen.io">CodePen</a>.</p>
                                 <script async type="application/javascript" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+                                 <h4>Secondary Button</h4>
                                 <p data-height="265" data-theme-id="light" data-slug-hash="6331a806b8eb81583e0b2464660cbb89"
                                     data-default-tab="html,result" data-user="cbachelot" data-embed-version="2"
                                     data-pen-title="DS 42 Secondary" class="codepen">See the Pen <a
@@ -166,21 +166,26 @@
                                         href="https://codepen.io/cbachelot">@cbachelot</a>) on <a
                                         href="https://codepen.io">CodePen</a>.</p>
                                 <script async type="application/javascript" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+                                 <h4>Disabled Button</h4>
                                 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="YBBGbQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Disabled Button W/Tooltip">
                                     <span>See the Pen <a href="https://codepen.io/cbachelot/pen/YBBGbQ/">
                                     Disabled Button W/Tooltip</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
                                     on <a href="https://codepen.io">CodePen</a>.</span>
                                   </p>
                                 <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+                                 <h4>Button with Icon</h4>
                                 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="vbbyZj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Standard Button With Icon">
                                     <span>See the Pen <a href="https://codepen.io/cbachelot/pen/vbbyZj/">
                                     Standard Button With Icon</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
                                     on <a href="https://codepen.io">CodePen</a>.</span>
                                   </p>
                                   <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+                                <h4>Email Button</h4>
+                                <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="JjYwKjy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Allied Elec Email Button">
+                                    <span>See the Pen <a href="https://codepen.io/cbachelot/pen/JjYwKjy">
+                                     Allied Elec Email Button</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                </p>
                             </div>
                         </div>
                         </div>
