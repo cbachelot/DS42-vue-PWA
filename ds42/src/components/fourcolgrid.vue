@@ -1,13 +1,17 @@
 <template>
 <div>
     <h3>One Column Layout</h3>
+    <div class="ft-one-col-grid-container">
+  <div class="column-bk ft-one-col-col1">Column 1</div>
+  </div>
+  <!--
     <div class="ft-grid-container">
     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-    </div>
+    </div> -->
     <h4>Code:</h4>
      <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
     &lt;div&gt;
@@ -16,7 +20,11 @@
 &lt;/div&gt;</code></pre>
 <hr>
 <h3>Two Column Layout</h3>
-   
+<div class="ft-two-col-grid-container">
+  <div class="column-bk ft-two-col-col1">Column 1</div>
+  <div class="column-bk ft-two-col-col2">Column 2</div>
+</div>
+<!--   
 <div class="ft-grid-container">
      <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
@@ -28,7 +36,7 @@
         Column 2
         </div>
     </div>
-</div>
+</div> -->
 <h4>Code:</h4>
 <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
      &lt;div&gt;
@@ -83,6 +91,14 @@
 </code></pre>    
 <hr>
  <h3>Four Column Layout</h3>
+<div class="ft-four-col-grid-container">
+  <div class="column-bk ft-four-col-col1">Column 1</div>
+  <div class="column-bk ft-four-col-col2">Column 2</div>
+  <div class="column-bk ft-four-col-col3">Column 3</div>
+  <div class="column-bk ft-four-col-col4">Column 4</div>
+</div>
+
+<!--
 <div class="ft-grid-container">
     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
@@ -104,7 +120,7 @@
         Column 4
         </div>
     </div>
-</div>
+</div>-->
   <h4>Code:</h4>
      <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
     &lt;div&gt;
@@ -409,6 +425,7 @@ export default{
     width: 100%;
     min-height: 150px;
     text-align: center;
+    padding-top: 10px;
 }
 
 hr {
