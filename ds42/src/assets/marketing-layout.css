@@ -12,14 +12,12 @@
   .ft-template-column {
       padding: 15px;
   }
-  
-  @media all and (-ms-high-contrast:none) {
+
     .ft-grid-container {
       display: -ms-grid;
       -ms-grid-columns: repeat(auto-fit, minmax(200px, 1fr));;
       -ms-grid-rows: auto;
-    }
-  }    
+    }   
  
 /* 12 Column */
 .ft-grid-container-12 {
@@ -74,7 +72,6 @@
     
 /* MS GRID STUFF */
 
-@media all and (-ms-high-contrast:none) {
     .ft-grid-container-12 {
       display: -ms-grid;
       -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -119,7 +116,7 @@
         -ms-grid-column: 1;
         -ms-grid-column-span: 12;
       }
-  }  
+
 
 @media only screen and (min-width: 768px) {
     /* COLUMN LAYOUTS - TABLET */
@@ -148,7 +145,6 @@
 
 /* MS GRID STUFF */
 
-@media all and (-ms-high-contrast:none) {
     .ft-grid-container-12 {
       display: -ms-grid;
       -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -211,7 +207,6 @@
     
   }  
 
-}
     
 @media only screen and (min-width: 992px) {
 /* COLUMN LAYOUTS - DESKTOP */
