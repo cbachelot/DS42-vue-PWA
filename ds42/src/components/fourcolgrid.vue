@@ -2,7 +2,7 @@
 <div>
     <h3>One Column Layout</h3>
     <div class="ft-grid-container">
-    <div class="column-bk">
+    <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
@@ -18,12 +18,12 @@
 <h3>Two Column Layout</h3>
    
 <div class="ft-grid-container">
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 2
         </div>
@@ -46,17 +46,17 @@
 <hr>
  <h3>Three Column Layout</h3>
 <div class="ft-grid-container">
-    <div class="column-bk">
+    <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 2
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 3
         </div>
@@ -84,22 +84,22 @@
 <hr>
  <h3>Four Column Layout</h3>
 <div class="ft-grid-container">
-    <div class="column-bk">
+    <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 2
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 3
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 4
         </div>
@@ -131,27 +131,27 @@
 <hr>
  <h3>Five Column Layout</h3>
 <div class="ft-grid-container">
-  <div class="column-bk">
+  <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 2
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 3
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 4
         </div>
     </div>
-      <div class="column-bk">
+      <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 5
         </div>
@@ -189,32 +189,32 @@
 <hr>
  <h3>Six Column Layout</h3>
 <div class="ft-grid-container">
-  <div class="column-bk">
+  <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 1
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 2
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 3
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 4
         </div>
     </div>
-      <div class="column-bk">
+      <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 5
         </div>
     </div>
-     <div class="column-bk">
+     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
         Column 6
         </div>
