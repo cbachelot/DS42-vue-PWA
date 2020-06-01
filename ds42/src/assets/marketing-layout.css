@@ -394,7 +394,7 @@
 .ft-four-col-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(4, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
@@ -437,7 +437,7 @@
 .ft-five-col-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(5, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: repeat(5, 1fr);
   -ms-grid-rows: 1fr;
   grid-template-rows:auto;
@@ -487,7 +487,7 @@
 .ft-six-col-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: 1fr;
   grid-template-rows:auto;
@@ -596,7 +596,7 @@
 .ft-six-col-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: repeat(6, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: repeat(6, 1fr);
   -ms-grid-rows: 1fr;
   grid-template-rows:auto;
