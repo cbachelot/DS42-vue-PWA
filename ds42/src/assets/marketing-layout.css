@@ -641,7 +641,7 @@
   -ms-grid-column-span: 1;
 }
 
-.ft-five-col-col6 { grid-area: ft-six-col-col6; 
+.ft-six-col-col6 { grid-area: ft-six-col-col6; 
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 6;
