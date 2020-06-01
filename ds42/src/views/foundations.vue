@@ -41,6 +41,22 @@ export default{
         compId:1
       },
       {
+        compTitle:"Iconography",
+        image       : require('../images/icon-preview.svg'),
+        altTag: "Iconography",
+        shortDesc: "Icons help us communicate clearly and effectively with the user through simple visual quest.",
+        router: '/icons',
+        compId:2
+      },
+         {
+        compTitle:"Layouts",
+        image       : require('../images/layouts.svg'),
+        altTag: "Layouts",
+        shortDesc: "The responsive layouts provided below adapt to device screen sizes, orientation and even specific browsers to ensure consistency across layouts.",
+        router: '/gridlayouts',
+        compId:2
+      },
+      {
         compTitle:"Typography",
         image       : require('../images/type-preview.svg'),
         altTag: "Typography",
@@ -48,15 +64,7 @@ export default{
         router: '/typography',
         compId:2
       }
-      ,
-      {
-        compTitle:"Iconography",
-        image       : require('../images/icon-preview.svg'),
-        altTag: "Iconography",
-        shortDesc: "Icons help us communicate clearly and effectively with the user through simple visual ques.",
-        router: '/icons',
-        compId:2
-      }
+      
       ]
     }
   }
