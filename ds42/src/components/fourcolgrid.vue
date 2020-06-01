@@ -53,6 +53,12 @@
 </code></pre> 
 <hr>
  <h3>Three Column Layout</h3>
+ <div class="ft-three-col-grid-container">
+  <div class="column-bk ft-three-col-col1">Column 1</div>
+  <div class="column-bk ft-three-col-col2">Column 2</div>
+  <div class="column-bk ft-three-col-col3">Column 3</div>
+</div>
+ <!--
 <div class="ft-grid-container">
     <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
@@ -69,7 +75,7 @@
         Column 3
         </div>
     </div>
-</div>
+</div>-->
 <h4>Code:</h4>
 <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
     &lt;div&gt;
@@ -146,6 +152,14 @@
 &lt;/div&gt;</code></pre>
 <hr>
  <h3>Five Column Layout</h3>
+ <div class="ft-five-col-grid-container">
+  <div class="column-bk ft-five-col-col1">Column 1</div>
+  <div class="column-bk ft-five-col-col2">Column 2</div>
+  <div class="column-bk ft-five-col-col3">Column 3</div>
+  <div class="column-bk ft-five-col-col4">Column 4</div>
+  <div class="column-bk ft-five-col-col5">Column 5</div>
+</div>
+ <!--
 <div class="ft-grid-container">
   <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
@@ -172,7 +186,7 @@
         Column 5
         </div>
     </div>
-</div>
+</div>-->
 <h4>Code:</h4>
 <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
   &lt;div&gt;
@@ -204,6 +218,16 @@
 </code></pre>    
 <hr>
  <h3>Six Column Layout</h3>
+
+  <div class="ft-six-col-grid-container">
+  <div class="column-bk ft-six-col-col1">Column 1</div>
+  <div class="column-bk ft-six-col-col2">Column 2</div>
+  <div class="column-bk ft-six-col-col3">Column 3</div>
+  <div class="column-bk ft-six-col-col4">Column 4</div>
+  <div class="column-bk ft-six-col-col5">Column 5</div>
+  <div class="column-bk ft-six-col-col6">Column 6</div>
+</div>
+ <!--
 <div class="ft-grid-container">
   <div class="column-bk ft-grid-item">
         <div class="ft-template-column">
@@ -235,7 +259,8 @@
         Column 6
         </div>
     </div>
-</div>
+</div>-->
+
 <h4>Code:</h4>
 <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
   &lt;div&gt;
