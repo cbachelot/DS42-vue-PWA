@@ -13,10 +13,8 @@
     </div>
     </div> -->
     <h4>Code:</h4>
-     <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-    &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;Column 1&lt;/div&gt;
-    &lt;/div&gt;
+     <pre><code>&lt;div class=&quot;ft-one-col-grid-container&quot;&gt;
+  &lt;div class=&quot;ft-one-col-col1&quot;&gt;Column 1&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 <hr>
 <h3>Two Column Layout</h3>
@@ -38,17 +36,9 @@
     </div>
 </div> -->
 <h4>Code:</h4>
-<pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 2
-        &lt;/div&gt;
-    &lt;/div&gt;
+<pre><code>&lt;div class=&quot;ft-two-col-grid-container&quot;&gt;
+  &lt;div class=&quot;ft-two-col-col1&quot;&gt;Column 1&lt;/div&gt;
+  &lt;div class=&quot;ft-two-col-col2&quot;&gt;Column 2&lt;/div&gt;
 &lt;/div&gt;
 </code></pre> 
 <hr>
@@ -77,22 +67,10 @@
     </div>
 </div>-->
 <h4>Code:</h4>
-<pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-    &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 2
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 3
-        &lt;/div&gt;
-    &lt;/div&gt;
+<pre><code>&lt;div class=&quot;ft-three-col-grid-container&quot;&gt;
+  &lt;div class=&quot;ft-three-col-col1&quot;&gt;Column 1&lt;/div&gt;
+  &lt;div class=&quot;ft-three-col-col2&quot;&gt;Column 2&lt;/div&gt;
+  &lt;div class=&quot;ft-three-col-col3&quot;&gt;Column 3&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>    
 <hr>
@@ -128,27 +106,11 @@
     </div>
 </div>-->
   <h4>Code:</h4>
-     <pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-    &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 2
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 3
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 4
-        &lt;/div&gt;
-    &lt;/div&gt;
+     <pre><code>&lt;div class=&quot;ft-four-col-grid-container&quot;&gt;
+  &lt;div class=&quot;ft-four-col-col1&quot;&gt;Column 1&lt;/div&gt;
+  &lt;div class=&quot;ft-four-col-col2&quot;&gt;Column 2&lt;/div&gt;
+  &lt;div class=&quot;ft-four-col-col3&quot;&gt;Column 3&lt;/div&gt;
+  &lt;div class=&quot;ft-four-col-col4&quot;&gt;Column 4&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 <hr>
  <h3>Five Column Layout</h3>
@@ -188,38 +150,18 @@
     </div>
 </div>-->
 <h4>Code:</h4>
-<pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-  &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 2
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 3
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 4
-        &lt;/div&gt;
-    &lt;/div&gt;
-      &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 5
-        &lt;/div&gt;
-    &lt;/div&gt;
+<pre><code> &lt;div class=&quot;ft-five-col-grid-container&quot;&gt;
+  &lt;div class=&quot;ft-five-col-col1&quot;&gt;Column 1&lt;/div&gt;
+  &lt;div class=&quot;ft-five-col-col2&quot;&gt;Column 2&lt;/div&gt;
+  &lt;div class=&quot;ft-five-col-col3&quot;&gt;Column 3&lt;/div&gt;
+  &lt;div class=&quot;ft-five-col-col4&quot;&gt;Column 4&lt;/div&gt;
+  &lt;div class=&quot;ft-five-col-col5&quot;&gt;Column 5&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>    
 <hr>
  <h3>Six Column Layout</h3>
 
-  <div class="ft-six-col-grid-container">
+<div class="ft-six-col-grid-container">
   <div class="column-bk ft-six-col-col1">Column 1</div>
   <div class="column-bk ft-six-col-col2">Column 2</div>
   <div class="column-bk ft-six-col-col3">Column 3</div>
@@ -262,52 +204,13 @@
 </div>-->
 
 <h4>Code:</h4>
-<pre><code>&lt;div class=&quot;ft-grid-container&quot;&gt;
-  &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 2
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 3
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 4
-        &lt;/div&gt;
-    &lt;/div&gt;
-      &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 5
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 6
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;Code:&lt;/h4&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;    
-&lt;div class=&quot;ft-grid-container-12&quot;&gt;
-    &lt;div class=&quot;ft-col-1-9&quot;&gt;
-        &lt;div class=&quot;ft-template-column&quot;&gt;
-        Column 1
-        &lt;/div&gt;
-    &lt;/div&gt;
-     &lt;div class=&quot;ft-col-9-13&quot;&gt;
-         &lt;div class=&quot;ft-template-column&quot;&gt;
-        &lt;p&gt;Column 2&lt;/p&gt;
-         &lt;/div&gt;
-    &lt;/div&gt;
+<pre><code>&lt;div class=&quot;ft-six-col-grid-container&quot;&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col1&quot;&gt;Column 1&lt;/div&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col2&quot;&gt;Column 2&lt;/div&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col3&quot;&gt;Column 3&lt;/div&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col4&quot;&gt;Column 4&lt;/div&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col5&quot;&gt;Column 5&lt;/div&gt;
+  &lt;div class=&quot;column-bk ft-six-col-col6&quot;&gt;Column 6&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>    
 <hr>
