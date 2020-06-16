@@ -12,6 +12,7 @@
 <router-link  to="/foundations">Foundations Overview</router-link>
 <router-link  to="/colors">Colors</router-link>
 <router-link  to="/icons">Iconography</router-link>
+<router-link  to="/imagery">Imagery</router-link>
 <router-link  to="/gridlayouts">Layouts</router-link>
 <router-link  to="/typography">Typography</router-link>
 <hr><div class="ds42-nav-title">Components</div>
