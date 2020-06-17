@@ -64,7 +64,7 @@
 
                                             <p><b>1. Icon</b> - Optional Use <br>
                                                 <b>2. Border</b> – 1px stroke - 2px corner <br>
-                                                <b>3. Hint Label</b> – 12px - Color: #979797<br>
+                                                <b>3. Hint Label and Input</b> – 14px (16px on mobile/tablet) - Color: #979797<br>
                                                 <b>4. Helper Text</b> - 9px - Color: #979797 or #9E0000<br>
                                                 <b>5. Focus Label</b> - 9px - Color: #008baa <br>
                                                 <b>6. Cursor</b> – Indicates the current location of the text input.<br>
@@ -125,19 +125,33 @@
 
                         </div>
                         <div>
-                            <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="KEWxMx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Floating Form Fields (Updated)">
-                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/KEWxMx/">
+                                 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="KEWxMx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Floating Form Fields (Updated)">
+                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/KEWxMx">
                                 Floating Form Fields (Updated)</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
                                 on <a href="https://codepen.io">CodePen</a>.</span>
-                              </p>
-                              <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+                                </p>
+                                <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
 
                               <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="bQPLKm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Drowpdown Web">
-                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/bQPLKm/">
-                                Drowpdown Web</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
-                                on <a href="https://codepen.io">CodePen</a>.</span>
-                              </p>
-                              <script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+  <span>See the Pen <a href="https://codepen.io/cbachelot/pen/bQPLKm">
+  Drowpdown Web</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="JjoQZNz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Allied Password">
+  <span>See the Pen <a href="https://codepen.io/cbachelot/pen/JjoQZNz">
+  Allied Password</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="rNxMjBd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Allied Text Area">
+  <span>See the Pen <a href="https://codepen.io/cbachelot/pen/rNxMjBd">
+  Allied Text Area</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async type="application/javascript" src="https://static.codepen.io/assets/embed/ei.js"></script>
 
                               <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="agMMmr" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Search Element With Floating Form Field">
                                 <span>See the Pen <a href="https://codepen.io/cbachelot/pen/agMMmr/">

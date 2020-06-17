@@ -169,6 +169,7 @@
   <div class="column-bk ft-six-col-col5">Column 5</div>
   <div class="column-bk ft-six-col-col6">Column 6</div>
 </div>
+
  <!--
 <div class="ft-grid-container">
   <div class="column-bk ft-grid-item">

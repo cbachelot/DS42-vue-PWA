@@ -107,6 +107,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/gridlayouts.vue')
   },
   {
+    path: '/imagery',
+    name: 'imagery',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/imagery.vue')
+  },
+  {
     path: '/icons',
     name: 'icons',
     // route level code-splitting

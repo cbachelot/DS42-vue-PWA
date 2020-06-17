@@ -364,6 +364,16 @@ nav a {
   grid-column-gap: 2%;
   margin-bottom: 85px;
 }
+.content-column-two-3-4 {
+  display: grid;
+  grid-template-columns: 1fr minmax(50px, 600px);
+  grid-column-gap: 2%;
+  margin-bottom: 85px;
+}
+
+.content-column-two-3-4 img {
+  width: 100%;
+}
 
 .content-column-two img {
   width: 100%;
@@ -1065,6 +1075,9 @@ img.icon {
     grid-template-columns: 1fr;
   }
 
+  .content-column-two-3-4 {
+    grid-template-columns: 1fr;
+  }
   .color-block {
     grid-template-columns: 1fr;
   }

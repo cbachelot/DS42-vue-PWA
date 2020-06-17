@@ -369,6 +369,19 @@ nav a {
   margin-bottom: 85px;
 }
 
+.content-column-two-3-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr minmax(50px, 600px);
+      grid-template-columns: 1fr minmax(50px, 600px);
+  grid-column-gap: 2%;
+  margin-bottom: 85px;
+}
+
+.content-column-two-3-4 img {
+  width: 100%;
+}
+
 .content-column-two img {
   width: 100%;
 }
@@ -1091,6 +1104,10 @@ img.icon {
     padding: 10px;
   }
   .content-column-two {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .content-column-two-3-4 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
