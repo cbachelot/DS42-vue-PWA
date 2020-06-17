@@ -2,7 +2,7 @@
  <div class="colors">
   <div class="page-grid">
 
-                <div class="page-overview purple-gradient">
+                <div class="page-overview green-gradient">
                     <div class="content-column-left">
                         <div>
                             <h2>Imagery</h2>
@@ -11,7 +11,7 @@
                         </div>
 
                         <div>
-                            <img alt="Colors Overview" class="overview-image" src="../images/color-overview.svg">
+                            <img alt="Colors Overview" class="overview-image" src="../images/imagery.svg">
                         </div>
                     </div>
                 </div>

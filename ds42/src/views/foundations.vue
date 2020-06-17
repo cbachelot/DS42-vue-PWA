@@ -49,6 +49,14 @@ export default{
         compId:2
       },
          {
+        compTitle:"Imagery",
+        image       : require('../images/imagery-2.svg'),
+        altTag: "Imagery",
+        shortDesc: "Imagery can be a powerful tool in enhancing the overall user experience, visual aesthetic, and providing context to messaging that is difficult to explain.",
+        router: '/imagery',
+        compId:2
+      },
+         {
         compTitle:"Layouts",
         image       : require('../images/layouts.svg'),
         altTag: "Layouts",
