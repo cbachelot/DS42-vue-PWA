@@ -4,8 +4,14 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import VueProgressBar from 'vue-progressbar'
+import VueAnalytics from 'vue-analytics'
 
 Vue.config.productionTip = false
+
+// Configuration VueAnalytics
+Vue.use(VueAnalytics, {
+  id: 'UA-150754568-1'
+});
 
 new Vue({
   router,
