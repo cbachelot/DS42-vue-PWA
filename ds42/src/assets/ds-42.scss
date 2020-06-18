@@ -326,7 +326,7 @@ nav a {
   font-weight: 300;
   color: $allied_support_gray;
   margin: 10px 0px 10px 0px;
-  padding-left: 30px;
+  padding-left: 34px;
 }
 
 .ds42-nav-category {
@@ -938,10 +938,11 @@ img.icon {
 
 @media only screen and (max-width: 768px) {
   .ds42-main-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 30px 1fr;
     grid-template-areas:
-      "nav"
-      "body";
+      "menu logo"
+      "nav nav"
+      "body body";
   }
   
   .icon-title-area {
@@ -955,6 +956,21 @@ img.icon {
     padding: 0px;
   }
 
+ 
+
+  .mobile-menu {
+    grid-area: menu;
+    padding-top: 34px;
+    padding-left: 13px;
+  }
+
+
+  .logo-mobile {
+    grid-area: logo;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
   /*Allied Typography*/
 
   .allied-h1 {
@@ -1002,7 +1018,7 @@ img.icon {
 
   .toggle {
     display: inline-block;
-    margin: 12px 0px 20px 12px;
+
   }
 
   #ds42-nav:target {
@@ -1017,7 +1033,7 @@ img.icon {
   .nav-close-icon {
     float: right;
     margin-right: 12px;
-    margin-top: 12px;
+    margin-top: 15px;
   }
 
   .content-three-column-even {
