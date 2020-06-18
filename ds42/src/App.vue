@@ -5,8 +5,11 @@
         <vue-progress-bar></vue-progress-bar>
 
 <div class="ds42-main-grid">
-    <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a>
+    <div class="mobile-menu">
+    <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a></div>
+    <div class="logo-mobile"><a href="https://designsystem42.com/"><img style="min-width:270px; right: 20px; height:auto;" alt="Design System 42" src="./images/42-blk-logo.svg"></a></div>
     <div id="ds42-nav">
+      
   <navigationcomp></navigationcomp>
   </div>
 
