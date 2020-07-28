@@ -23,6 +23,7 @@
 </template>
 
 <script>
+
 import navigationcomp from './components/NavigationComp';
 
 export default {
