@@ -324,7 +324,7 @@
                                                                 <p class="accent-variable">$allied-blue-l</p>
                                                             </div>
                                                             <div class="accent-content allied-blue-d">
-                                                            <p>#008baa</p>
+                                                            <p>#007A96</p>
                                                             <p class="accent-variable">$allied-blue-d</p></div>
                                                         </div>
 
