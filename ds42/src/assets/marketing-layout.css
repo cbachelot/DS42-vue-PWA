@@ -320,6 +320,52 @@
   grid-column: 1 / 13;
 }
 
+/* 3/12 + 9/12 */
+
+.ft-12col-1-4
+{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;    
+}
+
+.ft-12col-4-12 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+}
+
+
+/* 200px + 1fr GRID*/
+.ft-fixed200-col-grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows:auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin: 0 0 15px 0;
+ grid-template-areas: "ft-200px-col-col1" "ft-200px-col-col2"
+}
+
+.ft-fixed200-col1 { grid-area: ft-200px-col-col1; 
+  -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+}
+
+.ft-fixed200-col2 { grid-area: ft-200px-col-col2; 
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+   -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+
+
 @media only screen and (min-width: 768px) {
     /* COLUMN LAYOUTS - TABLET */
 
@@ -582,6 +628,48 @@
   -ms-grid-column-span: 9;
   grid-column: 4 / 13;
 }
+/* 3/12 + 9/12 */
+
+.ft-12col-1-4
+{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;    
+}
+
+.ft-12col-4-12 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 9;
+  grid-column: 4 / 13;
+}
+
+/* 200px + 1fr GRID*/
+.ft-fixed200-col-grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+  grid-template-columns: 200px 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows:auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin: 0 0 15px 0;
+ grid-template-areas: "ft-200px-col-col1 ft-200px-col-col2"
+}
+
+.ft-fixed200-col1 { grid-area: ft-200px-col-col1; 
+  -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+}
+
+.ft-fixed200-col2 { grid-area: ft-200px-col-col2; 
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+   -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+}
 
   }  
 
@@ -705,6 +793,21 @@
   -ms-grid-column: 3;
   -ms-grid-column-span: 10;
   grid-column: 3 / 13;
+}
+
+/* 3/12 + 9/12 */
+
+.ft-col-1-4
+{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;    
+}
+
+.ft-col-4-12 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 9;
+  grid-column: 4 / 13;
 }
 
 }
