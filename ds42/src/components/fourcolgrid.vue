@@ -327,6 +327,64 @@
 &lt;/div&gt;
 </code></pre>    
 
+<hr>
+<h3>3/12 + 9/12 Layout</h3>
+<div class="ft-grid-container-12">
+    <div class="column-bk ft-12col-1-4">
+        <div class="ft-template-column">
+        Column 1
+        </div>
+    </div>
+     <div class="column-bk ft-12col-4-12">
+         <div class="ft-template-column">
+        Column 2
+         </div>
+    </div>
+</div>
+<h4>Code:</h4>
+<pre><code>&lt;div class=&quot;ft-grid-container-12&quot;&gt;
+    &lt;div class=&quot;ft-col-1-4&quot;&gt;
+        &lt;div class=&quot;ft-template-column&quot;&gt;
+        Column 1
+        &lt;/div&gt;
+    &lt;/div&gt;
+     &lt;div class=&quot;ft-col-9-12&quot;&gt;
+         &lt;div class=&quot;ft-template-column&quot;&gt;
+        Column 2
+         &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre> 
+
+
+<hr>
+<h3>200px + 1fr Layout</h3>
+<div class="ft-fixed200-col-grid-container">
+    <div class="column-bk ft-fixed200-col1">
+        <div class="ft-template-column">
+        Column 1
+        </div>
+    </div>
+     <div class="column-bk ft-fixed200-col2">
+         <div class="ft-template-column">
+        Column 2
+         </div>
+    </div>
+</div>
+<h4>Code:</h4>
+<pre><code>&lt;div class=&quot;ft-fixed200-col-grid-container&quot;&gt;
+    &lt;div class=&quot;column-bk ft-fixed200-col1&quot;&gt;
+        &lt;div class=&quot;ft-template-column&quot;&gt;
+        Column 1
+        &lt;/div&gt;
+    &lt;/div&gt;
+     &lt;div class=&quot;column-bk ft-fixed200-col1&quot;&gt;
+         &lt;div class=&quot;ft-template-column&quot;&gt;
+        Column 2
+         &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre> 
 <!-- Test Area -->
 
 
