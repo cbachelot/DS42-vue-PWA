@@ -83,8 +83,8 @@
                                         <div class="six-column-layout">
                                             <div class="checkbox-states"><p class="remove-margin-top">Toggled On</p><img src="../images/Toggle-On.svg" alt="Radio Button Unselected"></div>
                                             <div class="checkbox-states"><p class="remove-margin-top">Toggled Off</p><img src="../images/Toggle-Off.svg" alt="Radio Button Selected"></div>
-                                            <div class="checkbox-states"><p class="remove-margin-top">Toggled On Disabled </p><img src="../images/Toggle-Off-Disabled.svg" alt="Radio Button Unselected Disabled"></div>
-                                            <div class="checkbox-states"><p class="remove-margin-top">Toggled Off Disabled</p><img src="../images/Toggle-On-Disabled.svg" alt="Radio Button Selected Disabled"></div>
+                                            <div class="checkbox-states"><p class="remove-margin-top">Toggled On Disabled </p><img src="../images/Toggle-On-Disabled.svg" alt="Radio Button Unselected Disabled"></div>
+                                            <div class="checkbox-states"><p class="remove-margin-top">Toggled Off Disabled</p><img src="../images/Toggle-Off-Disabled.svg" alt="Radio Button Selected Disabled"></div>
                                         </div>
                                         <hr>
 
