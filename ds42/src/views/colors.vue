@@ -302,7 +302,7 @@
                                                 <div class="allied-green">
                                                         <div class="accent-content color-title">
                                                             <span>Allied Green</span><div></div>
-                                                            <p>#8dc63f</p>
+                                                            <p>#92C846</p>
                                                             <p class="accent-variable">$allied-green</p>
                                                         </div>
                                                         <div class="accent-content allied-green-l">
