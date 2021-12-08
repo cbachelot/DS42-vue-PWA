@@ -729,6 +729,14 @@ export default{
         iconID:12
       },
         {
+        title:"Table",
+        image       : require('../images/icons/table.svg'),
+        altTag: "Table Icon",
+        description: "Used to indicate a table layout or format.",
+        class: "table-icon",
+        iconID:12
+      },
+        {
         title:"Timestamp",
         image       : require('../images/icons/timestamp.svg'),
         altTag: "time stamp",
